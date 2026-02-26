@@ -1,0 +1,92 @@
+[ {
+  "command" : "getEnergyStatus",
+  "message" : "ERROR: Simulation not started. Cannot perform action",
+  "timestamp" : 1
+}, {
+  "command" : "startSimulation",
+  "message" : "Simulation has started.",
+  "timestamp" : 2
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (1, 0).",
+  "timestamp" : 3
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (1, 1).",
+  "timestamp" : 4
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (2, 1).",
+  "timestamp" : 5
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 52 energy points left.",
+  "timestamp" : 6
+}, {
+  "command" : "rechargeBattery",
+  "message" : "Robot battery is charging.",
+  "timestamp" : 7
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "ERROR: Robot still charging. Cannot perform action",
+  "timestamp" : 8
+}, {
+  "command" : "printEnvConditions",
+  "message" : "ERROR: Robot still charging. Cannot perform action",
+  "timestamp" : 9
+}, {
+  "command" : "moveRobot",
+  "message" : "ERROR: Robot still charging. Cannot perform action",
+  "timestamp" : 10
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 62 energy points left.",
+  "timestamp" : 17
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (1, 1).",
+  "timestamp" : 18
+}, {
+  "command" : "rechargeBattery",
+  "message" : "Robot battery is charging.",
+  "timestamp" : 19
+}, {
+  "command" : "rechargeBattery",
+  "message" : "ERROR: Robot still charging. Cannot perform action",
+  "timestamp" : 20
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "SwampSoil",
+      "name" : "WetPeat",
+      "mass" : 1100.0,
+      "nitrogen" : 2.0,
+      "waterRetention" : 0.7,
+      "soilpH" : 6.3,
+      "organicMatter" : 0.5,
+      "soilQuality" : 1.8,
+      "waterLogging" : 0.3
+    },
+    "plants" : {
+      "type" : "FloweringPlants",
+      "name" : "Tulip",
+      "mass" : 0.5
+    },
+    "air" : {
+      "type" : "TemperateAir",
+      "name" : "Spring Air",
+      "mass" : 900000.0,
+      "humidity" : 60.0,
+      "temperature" : 15.0,
+      "oxygenLevel" : 20.0,
+      "airQuality" : 81.0,
+      "pollenLevel" : 10.0
+    }
+  },
+  "timestamp" : 21
+}, {
+  "command" : "endSimulation",
+  "message" : "Simulation has ended.",
+  "timestamp" : 22
+} ]

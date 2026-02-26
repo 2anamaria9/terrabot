@@ -1,0 +1,305 @@
+{
+  "simulationParams": [
+    {
+      "territoryDim": "4x4",
+      "energyPoints": 20,
+      "territorySectionParams": {
+        "soil": [
+          {
+            "type": "ForestSoil",
+            "name": "MistyForestBed",
+            "mass": 910,
+            "nitrogen": 2.9,
+            "waterRetention": 0.85,
+            "soilpH": 5.1,
+            "organicMatter": 0.45,
+            "leafLitter": 0.25,
+            "sections": [
+              {"x":0,"y":0},{"x":1,"y":1},{"x":2,"y":0},{"x":3,"y":2}
+            ]
+          },
+          {
+            "type": "SwampSoil",
+            "name": "BogMire",
+            "mass": 1100,
+            "nitrogen": 1.7,
+            "waterRetention": 0.9,
+            "soilpH": 6.4,
+            "organicMatter": 0.65,
+            "waterLogging": 0.95,
+            "sections": [
+              {"x":0,"y":2},{"x":1,"y":2},{"x":2,"y":3},{"x":2,"y":1}
+            ]
+          },
+          {
+            "type": "TundraSoil",
+            "name": "FrozenTundraLayer",
+            "mass": 770,
+            "nitrogen": 1.0,
+            "waterRetention": 0.45,
+            "soilpH": 5.8,
+            "organicMatter": 0.06,
+            "permafrostDepth": 5.8,
+            "sections": [
+              {"x":3,"y":0},{"x":3,"y":1},{"x":2,"y":2},{"x":1,"y":0}
+            ]
+          },
+          {
+            "type": "DesertSoil",
+            "name": "GoldenDuneSoil",
+            "mass": 860,
+            "nitrogen": 0.8,
+            "waterRetention": 0.4,
+            "soilpH": 8.0,
+            "organicMatter": 0.05,
+            "salinity": 0.05,
+            "sections": [
+              {"x":0,"y":3},{"x":1,"y":3},{"x":3,"y":3},{"x":0,"y":1}
+            ]
+          }
+        ],
+        "plants": [
+          {
+            "type": "FloweringPlants",
+            "name": "CrimsonRose",
+            "mass": 0.5,
+            "sections": [
+              {"x":0,"y":0},{"x":1,"y":1}
+            ]
+          },
+          {
+            "type": "Ferns",
+            "name": "EmeraldFern",
+            "mass": 0.8,
+            "sections": [
+              {"x":3,"y":0},{"x":3,"y":1}
+            ]
+          },
+          {
+            "type": "Algae",
+            "name": "AquaBloom",
+            "mass": 0.4,
+            "sections": [
+              {"x":0,"y":2},{"x":2,"y":3}
+            ]
+          },
+          {
+            "type": "Mosses",
+            "name": "SoftMoss",
+            "mass": 0.3,
+            "sections": [
+              {"x":1,"y":2}
+            ]
+          }
+        ],
+        "animals": [
+          {
+            "type": "Herbivores",
+            "name": "MountainDeer",
+            "mass": 85,
+            "sections": [
+              {"x":1,"y":0},{"x":1,"y":1}
+            ]
+          },
+          {
+            "type": "Carnivores",
+            "name": "BengalTiger",
+            "mass": 70,
+            "sections": [
+              {"x":2,"y":2},{"x":3,"y":2}
+            ]
+          },
+          {
+            "type": "Omnivores",
+            "name": "BrownBear",
+            "mass": 290,
+            "sections": [
+              {"x":2,"y":1}
+            ]
+          },
+          {
+            "type": "Detritivores",
+            "name": "SoilWorm",
+            "mass": 0.01,
+            "sections": [
+              {"x":0,"y":1},{"x":2,"y":3}
+            ]
+          }
+        ],
+        "water": [
+          {
+            "type": "pond",
+            "name": "MirrorPond",
+            "mass": 12,
+            "purity": 50,
+            "salinity": 0.2,
+            "turbidity": 3,
+            "contaminantIndex": 0.5,
+            "pH": 6.9,
+            "isFrozen": false,
+            "sections": [
+              {"x":0,"y":3},{"x":1,"y":3}
+            ]
+          },
+          {
+            "type": "river",
+            "name": "SilverStream",
+            "mass": 480,
+            "purity": 97,
+            "salinity": 0.3,
+            "turbidity": 2,
+            "contaminantIndex": 0.7,
+            "pH": 7.6,
+            "isFrozen": false,
+            "sections": [
+              {"x":2,"y":0},{"x":2,"y":1},{"x":2,"y":2}
+            ]
+          },
+          {
+            "type": "lake",
+            "name": "BlueHavenLake",
+            "mass": 250,
+            "purity": 92,
+            "salinity": 0.4,
+            "turbidity": 1,
+            "contaminantIndex": 0.4,
+            "pH": 7.3,
+            "isFrozen": false,
+            "sections": [
+              {"x":3,"y":2},{"x":3,"y":3}
+            ]
+          }
+        ],
+        "air": [
+          {
+            "type": "MountainAir",
+            "name": "AlpineBreeze",
+            "mass": 830000,
+            "humidity": 38,
+            "temperature": 6,
+            "oxygenLevel": 17,
+            "altitude": 4200.0,
+            "sections": [
+              {"x":3,"y":0},{"x":3,"y":1},{"x":3,"y":2},{"x":3,"y":3}
+            ]
+          },
+          {
+            "type": "TemperateAir",
+            "name": "SpringValleyAir",
+            "mass": 91000,
+            "humidity": 58,
+            "temperature": 15,
+            "oxygenLevel": 20,
+            "pollenLevel": 6.8,
+            "sections": [
+              {"x":1,"y":0},{"x":1,"y":1},{"x":2,"y":0},{"x":2,"y":1},{"x":0,"y":3},{"x":2,"y":2}
+            ]
+          },
+          {
+            "type": "TropicalAir",
+            "name": "EquatorialWind",
+            "mass": 82000,
+            "humidity": 83,
+            "temperature": 26,
+            "oxygenLevel": 21,
+            "co2Level": 0.05,
+            "sections": [
+              {"x":0,"y":0},{"x":0,"y":1},{"x":0,"y":2},{"x":1,"y":2},{"x":1,"y":3},{"x":2,"y":3}
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "commands": [
+    {
+      "command": "startSimulation",
+      "timestamp": 1
+    },
+    {
+      "command": "scanObject",
+      "color": "red",
+      "smell": "sweety",
+      "sound": "none",
+      "timestamp": 2
+    },
+    {
+      "command": "learnFact",
+      "subject": "Method to plant CrimsonRose",
+      "components": "CrimsonRose",
+      "timestamp": 3
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 4
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 5
+    },
+    {
+      "command": "improveEnvironment",
+      "improvementType": "plantVegetation",
+      "type": "FloweringPlants",
+      "name": "Tulip",
+      "timestamp": 6
+    },
+    {
+      "command": "getEnergyStatus",
+      "timestamp": 7
+    },
+    {
+      "command": "learnFact",
+      "subject": "Characteristic of CrimsonRose",
+      "components": "CrimsonRose",
+      "timestamp": 8
+    },
+    {
+      "command": "improveEnvironment",
+      "improvementType": "plantVegetation",
+      "type": "FloweringPlants",
+      "name": "CrimsonRose",
+      "timestamp": 9
+    },
+    {
+      "command": "rechargeBattery",
+      "timeToCharge": 50,
+      "timestamp": 10
+    },
+    {
+      "command": "getEnergyStatus",
+      "timestamp": 61
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 62
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 63
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 64
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 65
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 66
+    },
+    {
+      "command": "endSimulation",
+      "timestamp": 67
+    },
+    {
+      "command": "improveEnvironment",
+      "improvementType": "plantVegetation",
+      "type": "FloweringPlants",
+      "name": "Tulip",
+      "timestamp": 68
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+[ {
+  "command" : "startSimulation",
+  "message" : "Simulation has started.",
+  "timestamp" : 1
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is a plant.",
+  "timestamp" : 2
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "TundraSoil",
+      "name" : "ArcticTundraSoil",
+      "mass" : 800.0,
+      "nitrogen" : 0.9,
+      "waterRetention" : 0.3,
+      "soilpH" : 7.5,
+      "organicMatter" : 0.05,
+      "soilQuality" : 0.0,
+      "permafrostDepth" : 6.0
+    },
+    "plants" : {
+      "type" : "FloweringPlants",
+      "name" : "Tulip",
+      "mass" : 0.5
+    },
+    "animals" : {
+      "type" : "Omnivores",
+      "name" : "Bear",
+      "mass" : 300.0
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Humid Tropical Air",
+      "mass" : 950000.0,
+      "humidity" : 85.0,
+      "temperature" : 30.0,
+      "oxygenLevel" : 27.2,
+      "airQuality" : 96.9,
+      "co2Level" : 0.04
+    }
+  },
+  "timestamp" : 3
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 4
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 4990 energy points left.",
+  "timestamp" : 5
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 0).",
+  "timestamp" : 6
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "TundraSoil",
+      "name" : "ArcticTundraSoil",
+      "mass" : 800.0,
+      "nitrogen" : 0.9,
+      "waterRetention" : 0.3,
+      "soilpH" : 7.5,
+      "organicMatter" : 0.05,
+      "soilQuality" : 0.0,
+      "permafrostDepth" : 6.0
+    },
+    "plants" : {
+      "type" : "FloweringPlants",
+      "name" : "Tulip",
+      "mass" : 0.5
+    },
+    "animals" : {
+      "type" : "Omnivores",
+      "name" : "Bear",
+      "mass" : 300.0
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Humid Tropical Air",
+      "mass" : 950000.0,
+      "humidity" : 85.0,
+      "temperature" : 30.0,
+      "oxygenLevel" : 52.5,
+      "airQuality" : 100.0,
+      "co2Level" : 0.04
+    }
+  },
+  "timestamp" : 7
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 8
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 0).",
+  "timestamp" : 9
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 4941 energy points left.",
+  "timestamp" : 10
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 11
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 0).",
+  "timestamp" : 12
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "TundraSoil",
+      "name" : "ArcticTundraSoil",
+      "mass" : 800.0,
+      "nitrogen" : 0.9,
+      "waterRetention" : 0.3,
+      "soilpH" : 7.5,
+      "organicMatter" : 0.05,
+      "soilQuality" : 0.0,
+      "permafrostDepth" : 6.0
+    },
+    "plants" : {
+      "type" : "FloweringPlants",
+      "name" : "Tulip",
+      "mass" : 0.5
+    },
+    "animals" : {
+      "type" : "Omnivores",
+      "name" : "Bear",
+      "mass" : 300.0
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Humid Tropical Air",
+      "mass" : 950000.0,
+      "humidity" : 85.0,
+      "temperature" : 30.0,
+      "oxygenLevel" : 92.1,
+      "airQuality" : 100.0,
+      "co2Level" : 0.04
+    }
+  },
+  "timestamp" : 13
+}, {
+  "command" : "endSimulation",
+  "message" : "Simulation has ended.",
+  "timestamp" : 14
+} ]

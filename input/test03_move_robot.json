@@ -1,0 +1,141 @@
+{
+  "simulationParams": [
+    {
+      "territoryDim": "3x3",
+      "energyPoints": 20,
+      "territorySectionParams": {
+        "soil": [
+          {
+            "type": "ForestSoil",
+            "name": "LightForestSoil",
+            "mass": 1000.0,
+            "nitrogen": 2.5,
+            "waterRetention": 0.5,
+            "soilpH": 6.7,
+            "organicMatter": 0.3,
+            "leafLitter": 0.2,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 0, "y": 1 },
+              { "x": 0, "y": 2 }
+            ]
+          },
+          {
+            "type": "SwampSoil",
+            "name": "WetPeat",
+            "mass": 1100.0,
+            "nitrogen": 2.0,
+            "waterRetention": 0.7,
+            "soilpH": 6.3,
+            "organicMatter": 0.5,
+            "waterLogging": 0.6,
+            "sections": [
+              { "x": 1, "y": 0 },
+              { "x": 1, "y": 1 },
+              { "x": 1, "y": 2 }
+            ]
+          },
+          {
+            "type": "DesertSoil",
+            "name": "DrySand",
+            "mass": 800.0,
+            "nitrogen": 0.8,
+            "waterRetention": 0.15,
+            "soilpH": 7.2,
+            "organicMatter": 0.1,
+            "salinity": 0.05,
+            "sections": [
+              { "x": 2, "y": 0 },
+              { "x": 2, "y": 1 },
+              { "x": 2, "y": 2 }
+            ]
+          }
+        ],
+        "plants": [
+          {
+            "type": "FloweringPlants",
+            "name": "Tulip",
+            "mass": 0.5,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 1, "y": 1 },
+              { "x": 2, "y": 2 },
+              { "x": 1, "y": 0 }
+            ]
+          }
+        ],
+        "animals": [
+          {
+            "type": "Herbivores",
+            "name": "Rabbit",
+            "mass": 2,
+            "sections": [
+              { "x": 1, "y": 0 },
+              { "x": 2, "y": 1 },
+              { "x": 0, "y": 1 }
+            ]
+          }
+        ],
+        "water": [
+          {
+            "type": "pond",
+            "name": "SmallPond",
+            "mass": 30.0,
+            "purity": 85.0,
+            "salinity": 0.1,
+            "turbidity": 2,
+            "contaminantIndex": 0.5,
+            "pH": 6.6,
+            "isFrozen": false,
+            "sections": [
+              { "x": 0, "y": 2 },
+              { "x": 1, "y": 2 },
+              { "x": 0, "y": 1 },
+              { "x": 1, "y": 0 }
+            ]
+          }
+        ],
+        "air": [
+          {
+            "type": "TemperateAir",
+            "name": "Spring Air",
+            "mass": 900000.0,
+            "humidity": 60.0,
+            "temperature": 15.0,
+            "oxygenLevel": 20,
+            "pollenLevel": 10.0,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 1, "y": 1 },
+              { "x": 2, "y": 2 },
+              { "x": 0, "y": 1 },
+              { "x": 1, "y": 0 },
+              { "x": 2, "y": 1 },
+              { "x": 0, "y": 2 },
+              { "x": 1, "y": 2 },
+              { "x": 2, "y": 0 }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "commands": [
+    {
+      "command": "startSimulation",
+      "timestamp": 1
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 2
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 3
+    },
+    {
+      "command": "endSimulation",
+      "timestamp": 4
+    }
+  ]
+}

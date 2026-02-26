@@ -1,0 +1,103 @@
+[ {
+  "command" : "startSimulation",
+  "message" : "Simulation has started.",
+  "timestamp" : 1
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 2
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 896 energy points left.",
+  "timestamp" : 3
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 0).",
+  "timestamp" : 4
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "TundraSoil",
+      "name" : "ArcticTundraSoil",
+      "mass" : 800.0,
+      "nitrogen" : 0.9,
+      "waterRetention" : 0.3,
+      "soilpH" : 7.5,
+      "organicMatter" : 0.05,
+      "soilQuality" : 0.0,
+      "permafrostDepth" : 6.0
+    },
+    "plants" : {
+      "type" : "FloweringPlants",
+      "name" : "Tulip",
+      "mass" : 0.5
+    },
+    "animals" : {
+      "type" : "Omnivores",
+      "name" : "Bear",
+      "mass" : 300.0
+    },
+    "air" : {
+      "type" : "TemperateAir",
+      "name" : "Spring Air",
+      "mass" : 900000.0,
+      "humidity" : 60.0,
+      "temperature" : 15.0,
+      "oxygenLevel" : 20.0,
+      "airQuality" : 80.9,
+      "pollenLevel" : 11.0
+    }
+  },
+  "timestamp" : 5
+}, {
+  "command" : "rechargeBattery",
+  "message" : "Robot battery is charging.",
+  "timestamp" : 6
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 882 energy points left.",
+  "timestamp" : 16
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 17
+}, {
+  "command" : "rechargeBattery",
+  "message" : "Robot battery is charging.",
+  "timestamp" : 18
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 883 energy points left.",
+  "timestamp" : 24
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "SwampSoil",
+      "name" : "WetPeat",
+      "mass" : 1100.0,
+      "nitrogen" : 2.0,
+      "waterRetention" : 0.7,
+      "soilpH" : 6.3,
+      "organicMatter" : 0.5,
+      "soilQuality" : 0.8,
+      "waterLogging" : 0.5
+    },
+    "air" : {
+      "type" : "TemperateAir",
+      "name" : "Spring Air",
+      "mass" : 900000.0,
+      "humidity" : 60.0,
+      "temperature" : 15.0,
+      "oxygenLevel" : 20.0,
+      "airQuality" : 80.9,
+      "pollenLevel" : 11.0
+    }
+  },
+  "timestamp" : 25
+}, {
+  "command" : "endSimulation",
+  "message" : "Simulation has ended.",
+  "timestamp" : 26
+} ]

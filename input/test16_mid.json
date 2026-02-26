@@ -1,0 +1,359 @@
+{
+  "simulationParams": [
+    {
+      "territoryDim": "5x5",
+      "energyPoints": 100,
+      "territorySectionParams": {
+        "soil": [
+          {
+            "type": "ForestSoil",
+            "name": "LightForestSoil",
+            "mass": 800,
+            "nitrogen": 2.7,
+            "waterRetention": 0.9,
+            "soilpH": 6.3,
+            "organicMatter": 0.2,
+            "leafLitter": 0.4,
+            "sections": [
+              {"x":2,"y":1},{"x":1,"y":4},{"x":0,"y":2}
+            ]
+          },
+          {
+            "type": "SwampSoil",
+            "name": "WetPeat",
+            "mass": 1000,
+            "nitrogen": 5.2,
+            "waterRetention": 0.7,
+            "soilpH": 4.2,
+            "organicMatter": 3.3,
+            "waterLogging": 0.1,
+            "sections": [
+              {"x":2,"y":4},{"x":4,"y":2},{"x":4,"y":3},{"x":2,"y":2}
+            ]
+          },
+          {
+            "type": "TundraSoil",
+            "name": "ArcticTundraSoil",
+            "mass": 990,
+            "nitrogen": 0.8,
+            "waterRetention": 0.4,
+            "soilpH": 5.9,
+            "organicMatter": 0.3,
+            "permafrostDepth": 5.2,
+            "sections": [
+              {"x":0,"y":1},{"x":1,"y":3},{"x":2,"y":0},{"x":3,"y":4},{"x":4,"y":1},{"x":0,"y":4},{"x":4,"y":0}
+            ]
+          },
+          {
+            "type": "DesertSoil",
+            "name": "DrySandySoil",
+            "mass": 860,
+            "nitrogen": 4.2,
+            "waterRetention": 9.6,
+            "soilpH": 7.9,
+            "organicMatter": 0.06,
+            "salinity": 0.001,
+            "sections": [
+              {"x":1,"y":0},{"x":2,"y":3},{"x":1,"y":2},{"x":4,"y":4},{"x":1,"y":1},{"x":0,"y":0}
+            ]
+          },
+          {
+            "type": "GrasslandSoil",
+            "name": "Chernozem",
+            "mass": 500.0,
+            "nitrogen": 2.0,
+            "waterRetention": 2,
+            "soilpH": 5.3,
+            "organicMatter": 0.02,
+            "rootDensity": 11.0,
+            "sections": [
+              {"x":3,"y":0},{"x":3,"y":1},{"x":3,"y":2},{"x":3,"y":3},{"x":0,"y":3}
+            ]
+          }
+        ],
+        "plants": [
+          {
+            "type": "FloweringPlants",
+            "name": "Peony",
+            "mass": 0.5,
+            "sections": [
+              {"x":0,"y":0},{"x":1,"y":1},{"x":2,"y":1},{"x":3,"y":1},{"x":0,"y":2}
+            ]
+          },
+          {
+            "type": "Ferns",
+            "name": "SilverFern",
+            "mass": 0.8,
+            "sections": [
+              {"x":3,"y":0},{"x":4,"y":0},{"x":4,"y":1}
+            ]
+          },
+          {
+            "type": "GymnospermsPlants",
+            "name": "Cedar",
+            "mass": 0.4,
+            "sections": [
+              {"x":0,"y":4},{"x":1,"y":3}
+            ]
+          },
+          {
+            "type": "Mosses",
+            "name": "StoneMoss",
+            "mass": 0.3,
+            "sections": [
+              {"x":2,"y":4},{"x":4,"y":4}
+            ]
+          }
+        ],
+        "animals": [
+          {
+            "type": "Herbivores",
+            "name": "Gazelle",
+            "mass": 80,
+            "sections": [
+              {"x":1,"y":2},{"x":2,"y":0},{"x":4,"y":1},{"x":1,"y":1}
+            ]
+          },
+          {
+            "type": "Carnivores",
+            "name": "Cat",
+            "mass": 10,
+            "sections": [
+              {"x":2,"y":2},{"x":3,"y":2},{"x":4,"y":2},{"x":0,"y":0}
+            ]
+          },
+          {
+            "type": "Omnivores",
+            "name": "Raccoon",
+            "mass": 300,
+            "sections": [
+              {"x":3,"y":3}
+            ]
+          },
+          {
+            "type": "Detritivores",
+            "name": "Millipede",
+            "mass": 0.01,
+            "sections": [
+              {"x":0,"y":1},{"x":2,"y":3},{"x":4,"y":4}
+            ]
+          },
+          {
+            "type": "Parasites",
+            "name": "Tapeworm",
+            "mass": 0.001,
+            "sections": [
+              {"x":1,"y":4},{"x":3,"y":1}
+            ]
+          }
+        ],
+        "water": [
+          {
+            "type": "pond",
+            "name": "WillowPond",
+            "mass": 15,
+            "purity": 52,
+            "salinity": 0.3,
+            "turbidity": 4,
+            "contaminantIndex": 0.6,
+            "pH": 7.1,
+            "isFrozen": false,
+            "sections": [
+              {"x":0,"y":3},{"x":1,"y":4},{"x":2,"y":2},{"x":0,"y":0}
+            ]
+          },
+          {
+            "type": "river",
+            "name": "SilverStream",
+            "mass": 720,
+            "purity": 96,
+            "salinity": 0.5,
+            "turbidity": 2,
+            "contaminantIndex": 0.9,
+            "pH": 7.8,
+            "isFrozen": false,
+            "sections": [
+              {"x":3,"y":0},{"x":3,"y":1},{"x":2,"y":4},{"x":1,"y":2}
+            ]
+          },
+          {
+            "type": "lake",
+            "name": "MirrorLake",
+            "mass": 280,
+            "purity": 91,
+            "salinity": 0.6,
+            "turbidity": 2,
+            "contaminantIndex": 0.7,
+            "pH": 7.4,
+            "isFrozen": false,
+            "sections": [
+              {"x":4,"y":1},{"x":4,"y":3},{"x":0,"y":1}
+            ]
+          }
+        ],
+        "air": [
+          {
+            "type": "TropicalAir",
+            "name": "Emerald Breeze",
+            "mass": 85000,
+            "humidity": 85,
+            "temperature": 28,
+            "oxygenLevel": 21,
+            "co2Level": 0.05,
+            "sections": [
+              {"x":0,"y":0},{"x":0,"y":1},{"x":0,"y":2},{"x":0,"y":3},{"x":0,"y":4}
+            ]
+          },
+          {
+            "type": "DesertAir",
+            "name": "Sahara Drift",
+            "mass": 76000,
+            "humidity": 15,
+            "temperature": 38,
+            "oxygenLevel": 19,
+            "dustParticles": 18.0,
+            "sections": [
+              {"x":1,"y":0},{"x":1,"y":1},{"x":1,"y":2},{"x":1,"y":3},{"x":1,"y":4}
+            ]
+          },
+          {
+            "type": "TemperateAir",
+            "name": "Willow Zephyr",
+            "mass": 92000,
+            "humidity": 60,
+            "temperature": 17,
+            "oxygenLevel": 20,
+            "pollenLevel": 6.8,
+            "sections": [
+              {"x":2,"y":0},{"x":2,"y":1},{"x":2,"y":2},{"x":2,"y":3},{"x":2,"y":4}
+            ]
+          },
+          {
+            "type": "MountainAir",
+            "name": "Crystal Peak Current",
+            "mass": 81000,
+            "humidity": 45,
+            "temperature": 6,
+            "oxygenLevel": 17,
+            "altitude": 3800.0,
+            "sections": [
+              {"x":3,"y":0},{"x":3,"y":1},{"x":3,"y":2},{"x":3,"y":3},{"x":3,"y":4}
+            ]
+          },
+          {
+            "type": "PolarAir",
+            "name": "Frost Gale",
+            "mass": 87000,
+            "humidity": 50,
+            "temperature": -10,
+            "oxygenLevel": 22,
+            "iceCrystalConcentration": 0.9,
+            "sections": [
+              {"x":4,"y":0},{"x":4,"y":1},{"x":4,"y":2},{"x":4,"y":3},{"x":4,"y":4}
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "commands": [
+    {
+      "command": "startSimulation",
+      "timestamp": 1
+    },
+    {
+      "command": "printMap",
+      "timestamp": 2
+    },
+    {
+      "command": "scanObject",
+      "color": "orange",
+      "smell": "musky",
+      "sound": "miau",
+      "timestamp": 3
+    },
+    {
+      "command": "scanObject",
+      "color": "none",
+      "smell": "none",
+      "sound": "none",
+      "timestamp": 4
+    },
+    {
+      "command": "learnFact",
+      "subject": "Method to fertilize soil with Cat",
+      "components": "Cat",
+      "timestamp": 5
+    },
+    {
+      "command": "learnFact",
+      "subject": "Method to increaseMoisture",
+      "components": "WillowPond",
+      "timestamp": 6
+    },
+    {
+      "command": "printKnowledgeBase",
+      "timestamp": 7
+    },
+    {
+      "command": "improveEnvironment",
+      "improvementType": "increaseMoisture",
+      "type": "pond",
+      "name": "WillowPond",
+      "timestamp": 8
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 9
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 10
+    },
+    {
+      "command": "scanObject",
+      "color": "pink",
+      "smell": "sweet floral",
+      "sound": "none",
+      "timestamp": 11
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 12
+    },
+    {
+      "command": "improveEnvironment",
+      "improvementType": "plantVegetation",
+      "type": "FloweringPlants",
+      "name": "Peony",
+      "timestamp": 13
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 14
+    },
+    {
+      "command": "improveEnvironment",
+      "improvementType": "plantVegetation",
+      "type": "FloweringPlants",
+      "name": "Peony",
+      "timestamp": 15
+    },
+    {
+      "command": "getEnergyStatus",
+      "timestamp": 16
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 17
+    },
+    {
+      "command": "printMap",
+      "timestamp": 18
+    },
+    {
+      "command": "endSimulation",
+      "timestamp": 19
+    }
+  ]
+}

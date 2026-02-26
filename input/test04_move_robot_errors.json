@@ -1,0 +1,218 @@
+{
+  "simulationParams": [
+    {
+      "territoryDim": "4x4",
+      "energyPoints": 10,
+      "territorySectionParams": {
+        "soil": [
+          {
+            "type": "ForestSoil",
+            "name": "LightForestSoil",
+            "mass": 1000.0,
+            "nitrogen": 2.5,
+            "waterRetention": 0.5,
+            "soilpH": 6.7,
+            "organicMatter": 0.3,
+            "leafLitter": 0.3,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 0, "y": 1 },
+              { "x": 0, "y": 2 },
+              { "x": 0, "y": 3 }
+            ]
+          },
+          {
+            "type": "SwampSoil",
+            "name": "WetPeat",
+            "mass": 1100.0,
+            "nitrogen": 2.0,
+            "waterRetention": 0.7,
+            "soilpH": 6.3,
+            "organicMatter": 0.5,
+            "waterLogging": 0.6,
+            "sections": [
+              { "x": 1, "y": 0 },
+              { "x": 1, "y": 1 },
+              { "x": 1, "y": 2 },
+              { "x": 1, "y": 3 }
+            ]
+          },
+          {
+            "type": "TundraSoil",
+            "name": "DrySand",
+            "mass": 800.0,
+            "nitrogen": 0.8,
+            "waterRetention": 0.15,
+            "soilpH": 7.2,
+            "organicMatter": 0.1,
+            "permafrostDepth": 4.0,
+            "sections": [
+              { "x": 2, "y": 0 },
+              { "x": 2, "y": 1 },
+              { "x": 2, "y": 2 },
+              { "x": 2, "y": 3 }
+            ]
+          },
+          {
+            "type": "GrasslandSoil",
+            "name": "Chernozem",
+            "mass": 400.0,
+            "nitrogen": 1.0,
+            "waterRetention": 2,
+            "soilpH": 10,
+            "organicMatter": 0.02,
+            "rootDensity": 10.0,
+            "sections": [
+              { "x": 3, "y": 0 },
+              { "x": 3, "y": 1 },
+              { "x": 3, "y": 2 },
+              { "x": 3, "y": 3 }
+            ]
+          }
+        ],
+        "plants": [
+          {
+            "type": "FloweringPlants",
+            "name": "Tulip",
+            "mass": 0.5,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 1, "y": 1 },
+              { "x": 2, "y": 2 }
+            ]
+          },
+          {
+            "type": "Ferns",
+            "name": "Bracken",
+            "mass": 1,
+            "sections": [
+              { "x": 3, "y": 0 },
+              { "x": 3, "y": 3 }
+            ]
+          }
+        ],
+        "animals": [
+          {
+            "type": "Herbivores",
+            "name": "Rabbit",
+            "mass": 2,
+            "sections": [
+              { "x": 1, "y": 0 },
+              { "x": 2, "y": 1 }
+            ]
+          },
+          {
+            "type": "Carnivores",
+            "name": "Wolf",
+            "mass": 15,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 3, "y": 2 }
+            ]
+          }
+        ],
+        "water": [
+          {
+            "type": "pond",
+            "name": "SmallPond",
+            "mass": 30.0,
+            "purity": 85.0,
+            "salinity": 0.1,
+            "turbidity": 2,
+            "contaminantIndex": 0.5,
+            "pH": 6.6,
+            "isFrozen": false,
+            "sections": [
+              { "x": 0, "y": 2 },
+              { "x": 1, "y": 2 },
+              { "x": 3, "y": 1 }
+            ]
+          }
+        ],
+        "air": [
+          {
+            "type": "TemperateAir",
+            "name": "Spring Air",
+            "mass": 900000.0,
+            "humidity": 60.0,
+            "temperature": 15.0,
+            "oxygenLevel": 20,
+            "pollenLevel": 14.0,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 0, "y": 1 },
+              { "x": 0, "y": 2 },
+              { "x": 0, "y": 3 },
+              { "x": 1, "y": 0 },
+              { "x": 1, "y": 1 },
+              { "x": 1, "y": 2 },
+              { "x": 1, "y": 3 },
+              { "x": 2, "y": 0 },
+              { "x": 2, "y": 1 },
+              { "x": 2, "y": 2 },
+              { "x": 2, "y": 3 },
+              { "x": 3, "y": 0 },
+              { "x": 3, "y": 1 },
+              { "x": 3, "y": 2 },
+              { "x": 3, "y": 3 }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "commands": [
+    {
+      "command": "moveRobot",
+      "timestamp": 1
+    },
+    {
+      "command": "startSimulation",
+      "timestamp": 2
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 3
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 4
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 5
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 6
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 7
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 8
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 9
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 10
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 11
+    },
+    {
+      "command": "endSimulation",
+      "timestamp": 12
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 13
+    }
+  ]
+}

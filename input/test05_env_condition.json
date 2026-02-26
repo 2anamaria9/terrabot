@@ -1,0 +1,245 @@
+{
+  "simulationParams": [
+    {
+      "territoryDim": "4x4",
+      "energyPoints": 160,
+      "territorySectionParams": {
+        "soil": [
+          {
+            "type": "ForestSoil",
+            "name": "DarkHumus",
+            "mass": 1200.0,
+            "nitrogen": 3.0,
+            "waterRetention": 0.6,
+            "soilpH": 6.2,
+            "organicMatter": 0.35,
+            "leafLitter": 0.3,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 1, "y": 0 },
+              { "x": 2, "y": 0 },
+              { "x": 3, "y": 0 }
+            ]
+          },
+          {
+            "type": "SwampSoil",
+            "name": "MarshPeat",
+            "mass": 1000.0,
+            "nitrogen": 2.2,
+            "waterRetention": 0.75,
+            "soilpH": 6.0,
+            "organicMatter": 0.55,
+            "waterLogging": 0.3,
+            "sections": [
+              { "x": 0, "y": 1 },
+              { "x": 1, "y": 1 },
+              { "x": 2, "y": 1 },
+              { "x": 3, "y": 1 }
+            ]
+          },
+          {
+            "type": "DesertSoil",
+            "name": "AridSand",
+            "mass": 700.0,
+            "nitrogen": 0.5,
+            "waterRetention": 0.08,
+            "soilpH": 8.5,
+            "organicMatter": 0.05,
+            "salinity": 0.05,
+            "sections": [
+              { "x": 0, "y": 2 },
+              { "x": 1, "y": 2 },
+              { "x": 2, "y": 2 },
+              { "x": 3, "y": 2 }
+            ]
+          },
+          {
+            "type": "GrasslandSoil",
+            "name": "Kastanozem",
+            "mass": 950.0,
+            "nitrogen": 1.2,
+            "waterRetention": 0.3,
+            "soilpH": 7.0,
+            "organicMatter": 0.15,
+            "rootDensity": 12.0,
+            "sections": [
+              { "x": 0, "y": 3 },
+              { "x": 1, "y": 3 },
+              { "x": 2, "y": 3 },
+              { "x": 3, "y": 3 }
+            ]
+          }
+        ],
+        "plants": [
+          {
+            "type": "GymnospermsPlants",
+            "name": "Pine",
+            "mass": 3.5,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 2, "y": 0 },
+              { "x": 3, "y": 1 }
+            ]
+          },
+          {
+            "type": "Mosses",
+            "name": "Sphagnum",
+            "mass": 0.2,
+            "sections": [
+              { "x": 1, "y": 1 },
+              { "x": 2, "y": 1 },
+              { "x": 3, "y": 2 }
+            ]
+          },
+          {
+            "type": "Algae",
+            "name": "GreenAlgae",
+            "mass": 0.05,
+            "sections": [
+              { "x": 0, "y": 3 },
+              { "x": 2, "y": 3 }
+            ]
+          }
+        ],
+        "animals": [
+          {
+            "type": "Herbivores",
+            "name": "Deer",
+            "mass": 80,
+            "sections": [
+              { "x": 1, "y": 0 },
+              { "x": 2, "y": 2 }
+            ]
+          },
+          {
+            "type": "Omnivores",
+            "name": "Bear",
+            "mass": 200,
+            "sections": [
+              { "x": 3, "y": 0 }
+            ]
+          },
+          {
+            "type": "Detritivores",
+            "name": "Earthworm",
+            "mass": 0.05,
+            "sections": [
+              { "x": 1, "y": 3 },
+              { "x": 3, "y": 3 }
+            ]
+          }
+        ],
+        "water": [
+          {
+            "type": "lake",
+            "name": "BlueLake",
+            "mass": 500.0,
+            "purity": 90.0,
+            "salinity": 0.2,
+            "turbidity": 1.5,
+            "contaminantIndex": 0.3,
+            "pH": 7.0,
+            "isFrozen": false,
+            "sections": [
+              { "x": 0, "y": 1 },
+              { "x": 0, "y": 2 }
+            ]
+          },
+          {
+            "type": "river",
+            "name": "ClearRiver",
+            "mass": 300.0,
+            "purity": 92.0,
+            "salinity": 0.05,
+            "turbidity": 1.2,
+            "contaminantIndex": 0.2,
+            "pH": 7.4,
+            "isFrozen": false,
+            "sections": [
+              { "x": 2, "y": 1 },
+              { "x": 3, "y": 1 }
+            ]
+          }
+        ],
+        "air": [
+          {
+            "type": "MountainAir",
+            "name": "Highland Breeze",
+            "mass": 880000.0,
+            "humidity": 45.0,
+            "temperature": 10.0,
+            "oxygenLevel": 22,
+            "altitude": 2600.0,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 1, "y": 0 },
+              { "x": 2, "y": 0 },
+              { "x": 3, "y": 0 },
+              { "x": 0, "y": 1 },
+              { "x": 1, "y": 1 },
+              { "x": 2, "y": 1 },
+              { "x": 3, "y": 1 }
+            ]
+          },
+          {
+            "type": "TropicalAir",
+            "name": "Moist Tropic Flow",
+            "mass": 910000.0,
+            "humidity": 75.0,
+            "temperature": 26.0,
+            "oxygenLevel": 19,
+            "co2Level": 380.0,
+            "sections": [
+              { "x": 0, "y": 3 },
+              { "x": 1, "y": 3 },
+              { "x": 2, "y": 3 },
+              { "x": 3, "y": 3 },
+              { "x": 0, "y": 2 },
+              { "x": 1, "y": 2 },
+              { "x": 2, "y": 2 },
+              { "x": 3, "y": 2 }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "commands": [
+    {
+      "command": "printEnvConditions",
+      "timestamp": 1
+    },
+    {
+      "command": "startSimulation",
+      "timestamp": 2
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 3
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 4
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 5
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 6
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 7
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 8
+    },
+    {
+      "command": "endSimulation",
+      "timestamp": 9
+    }
+  ]
+}

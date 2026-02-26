@@ -1,0 +1,192 @@
+[ {
+  "command" : "startSimulation",
+  "message" : "Simulation has started.",
+  "timestamp" : 1
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is a plant.",
+  "timestamp" : 2
+}, {
+  "command" : "learnFact",
+  "message" : "The fact has been successfully saved in the database.",
+  "timestamp" : 3
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 4
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "TundraSoil",
+      "name" : "ArcticTundraSoil",
+      "mass" : 780.0,
+      "nitrogen" : 0.9,
+      "waterRetention" : 0.4,
+      "soilpH" : 5.9,
+      "organicMatter" : 0.05,
+      "soilQuality" : 0.0,
+      "permafrostDepth" : 6.0
+    },
+    "animals" : {
+      "type" : "Detritivores",
+      "name" : "Earthworm",
+      "mass" : 0.01
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Humid Summer Wind",
+      "mass" : 80000.0,
+      "humidity" : 80.0,
+      "temperature" : 25.0,
+      "oxygenLevel" : 21.0,
+      "airQuality" : 82.0,
+      "co2Level" : 0.06
+    }
+  },
+  "timestamp" : 5
+}, {
+  "command" : "improveEnvironment",
+  "message" : "The Rose was planted successfully.",
+  "timestamp" : 6
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "TundraSoil",
+      "name" : "ArcticTundraSoil",
+      "mass" : 780.0,
+      "nitrogen" : 0.9,
+      "waterRetention" : 0.4,
+      "soilpH" : 5.9,
+      "organicMatter" : 0.05,
+      "soilQuality" : 0.0,
+      "permafrostDepth" : 6.0
+    },
+    "animals" : {
+      "type" : "Detritivores",
+      "name" : "Earthworm",
+      "mass" : 0.01
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Humid Summer Wind",
+      "mass" : 80000.0,
+      "humidity" : 80.0,
+      "temperature" : 25.0,
+      "oxygenLevel" : 21.3,
+      "airQuality" : 82.6,
+      "co2Level" : 0.06
+    }
+  },
+  "timestamp" : 7
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 51 energy points left.",
+  "timestamp" : 8
+}, {
+  "command" : "printKnowledgeBase",
+  "output" : [ {
+    "topic" : "Rose",
+    "facts" : [ "Method to plant Rose" ]
+  } ],
+  "timestamp" : 9
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 0).",
+  "timestamp" : 10
+}, {
+  "command" : "scanObject",
+  "message" : "ERROR: Object not found. Cannot perform action",
+  "timestamp" : 11
+}, {
+  "command" : "learnFact",
+  "message" : "ERROR: Subject not yet saved. Cannot perform action",
+  "timestamp" : 12
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "ForestSoil",
+      "name" : "LightForestSoil",
+      "mass" : 900.0,
+      "nitrogen" : 2.6,
+      "waterRetention" : 0.8,
+      "soilpH" : 5.3,
+      "organicMatter" : 0.4,
+      "soilQuality" : 5.18,
+      "leafLitter" : 0.2
+    },
+    "plants" : {
+      "type" : "FloweringPlants",
+      "name" : "Rose",
+      "mass" : 0.5
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Humid Summer Wind",
+      "mass" : 80000.0,
+      "humidity" : 80.0,
+      "temperature" : 25.0,
+      "oxygenLevel" : 92.1,
+      "airQuality" : 100.0,
+      "co2Level" : 0.06
+    }
+  },
+  "timestamp" : 13
+}, {
+  "command" : "improveEnvironment",
+  "message" : "ERROR: Subject not yet saved. Cannot perform action",
+  "timestamp" : 14
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "ForestSoil",
+      "name" : "LightForestSoil",
+      "mass" : 900.0,
+      "nitrogen" : 2.6,
+      "waterRetention" : 0.8,
+      "soilpH" : 5.3,
+      "organicMatter" : 0.4,
+      "soilQuality" : 5.18,
+      "leafLitter" : 0.2
+    },
+    "plants" : {
+      "type" : "FloweringPlants",
+      "name" : "Rose",
+      "mass" : 0.5
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Humid Summer Wind",
+      "mass" : 80000.0,
+      "humidity" : 80.0,
+      "temperature" : 25.0,
+      "oxygenLevel" : 104.9,
+      "airQuality" : 100.0,
+      "co2Level" : 0.06
+    }
+  },
+  "timestamp" : 15
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 16
+}, {
+  "command" : "scanObject",
+  "message" : "ERROR: Object not found. Cannot perform action",
+  "timestamp" : 17
+}, {
+  "command" : "learnFact",
+  "message" : "ERROR: Subject not yet saved. Cannot perform action",
+  "timestamp" : 18
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 20 energy points left.",
+  "timestamp" : 19
+}, {
+  "command" : "endSimulation",
+  "message" : "Simulation has ended.",
+  "timestamp" : 20
+} ]

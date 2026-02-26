@@ -1,0 +1,970 @@
+[ {
+  "command" : "startSimulation",
+  "message" : "Simulation has started.",
+  "timestamp" : 1
+}, {
+  "command" : "printMap",
+  "output" : [ {
+    "section" : [ 0, 0 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 0 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 0 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  } ],
+  "timestamp" : 2
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is a plant.",
+  "timestamp" : 3
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "ForestSoil",
+      "name" : "RichForestSoil",
+      "mass" : 920.0,
+      "nitrogen" : 2.5,
+      "waterRetention" : 0.75,
+      "soilpH" : 6.4,
+      "organicMatter" : 0.38,
+      "soilQuality" : 4.95,
+      "leafLitter" : 0.22
+    },
+    "plants" : {
+      "type" : "FloweringPlants",
+      "name" : "Rose",
+      "mass" : 1.45
+    },
+    "air" : {
+      "type" : "TemperateAir",
+      "name" : "Pleasant Morning Air",
+      "mass" : 880000.0,
+      "humidity" : 62.0,
+      "temperature" : 19.0,
+      "oxygenLevel" : 27.2,
+      "airQuality" : 96.95,
+      "pollenLevel" : 8.5
+    }
+  },
+  "timestamp" : 4
+}, {
+  "command" : "changeWeatherConditions",
+  "message" : "The weather has changed.",
+  "timestamp" : 6
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "ForestSoil",
+      "name" : "RichForestSoil",
+      "mass" : 920.0,
+      "nitrogen" : 2.5,
+      "waterRetention" : 0.75,
+      "soilpH" : 6.4,
+      "organicMatter" : 0.38,
+      "soilQuality" : 4.95,
+      "leafLitter" : 0.22
+    },
+    "plants" : {
+      "type" : "FloweringPlants",
+      "name" : "Rose",
+      "mass" : 1.45
+    },
+    "air" : {
+      "type" : "TemperateAir",
+      "name" : "Pleasant Morning Air",
+      "mass" : 880000.0,
+      "humidity" : 62.0,
+      "temperature" : 19.0,
+      "oxygenLevel" : 45.8,
+      "airQuality" : 100.0,
+      "pollenLevel" : 8.5
+    }
+  },
+  "timestamp" : 7
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 113 energy points left.",
+  "timestamp" : 8
+}, {
+  "command" : "printMap",
+  "output" : [ {
+    "section" : [ 0, 0 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 0 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 0 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  } ],
+  "timestamp" : 10
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (1, 0).",
+  "timestamp" : 11
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is an animal.",
+  "timestamp" : 12
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is a plant.",
+  "timestamp" : 13
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "GrasslandSoil",
+      "name" : "FertileMeadow",
+      "mass" : 850.0,
+      "nitrogen" : 1.8,
+      "waterRetention" : 0.55,
+      "soilpH" : 6.9,
+      "organicMatter" : 0.28,
+      "soilQuality" : 10.36,
+      "rootDensity" : 9.5
+    },
+    "air" : {
+      "type" : "TemperateAir",
+      "name" : "Pleasant Morning Air",
+      "mass" : 880000.0,
+      "humidity" : 62.0,
+      "temperature" : 19.0,
+      "oxygenLevel" : 21.2,
+      "airQuality" : 84.95,
+      "pollenLevel" : 8.5
+    }
+  },
+  "timestamp" : 14
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (1, 1).",
+  "timestamp" : 15
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is a plant.",
+  "timestamp" : 16
+}, {
+  "command" : "learnFact",
+  "message" : "The fact has been successfully saved in the database.",
+  "timestamp" : 18
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "ForestSoil",
+      "name" : "RichForestSoil",
+      "mass" : 920.0,
+      "nitrogen" : 2.5,
+      "waterRetention" : 0.75,
+      "soilpH" : 6.4,
+      "organicMatter" : 0.38,
+      "soilQuality" : 4.95,
+      "leafLitter" : 0.22
+    },
+    "plants" : {
+      "type" : "FloweringPlants",
+      "name" : "Rose",
+      "mass" : 1.45
+    },
+    "animals" : {
+      "type" : "Detritivores",
+      "name" : "Earthworm",
+      "mass" : 0.25
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Warm Tropical Breeze",
+      "mass" : 940000.0,
+      "humidity" : 78.0,
+      "temperature" : 26.0,
+      "oxygenLevel" : 39.6,
+      "airQuality" : 100.0,
+      "co2Level" : 0.04
+    }
+  },
+  "timestamp" : 19
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 74 energy points left.",
+  "timestamp" : 20
+}, {
+  "command" : "improveEnvironment",
+  "message" : "The Rose was planted successfully.",
+  "timestamp" : 21
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "ForestSoil",
+      "name" : "RichForestSoil",
+      "mass" : 920.0,
+      "nitrogen" : 2.5,
+      "waterRetention" : 0.75,
+      "soilpH" : 6.4,
+      "organicMatter" : 0.38,
+      "soilQuality" : 4.95,
+      "leafLitter" : 0.22
+    },
+    "plants" : {
+      "type" : "FloweringPlants",
+      "name" : "Rose",
+      "mass" : 1.45
+    },
+    "animals" : {
+      "type" : "Detritivores",
+      "name" : "Earthworm",
+      "mass" : 0.25
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Warm Tropical Breeze",
+      "mass" : 940000.0,
+      "humidity" : 78.0,
+      "temperature" : 26.0,
+      "oxygenLevel" : 59.5,
+      "airQuality" : 100.0,
+      "co2Level" : 0.04
+    }
+  },
+  "timestamp" : 22
+}, {
+  "command" : "improveEnvironment",
+  "message" : "The Rose was planted successfully.",
+  "timestamp" : 23
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "ForestSoil",
+      "name" : "RichForestSoil",
+      "mass" : 920.0,
+      "nitrogen" : 2.5,
+      "waterRetention" : 0.75,
+      "soilpH" : 6.4,
+      "organicMatter" : 0.38,
+      "soilQuality" : 4.95,
+      "leafLitter" : 0.22
+    },
+    "plants" : {
+      "type" : "FloweringPlants",
+      "name" : "Rose",
+      "mass" : 1.45
+    },
+    "animals" : {
+      "type" : "Detritivores",
+      "name" : "Earthworm",
+      "mass" : 0.25
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Warm Tropical Breeze",
+      "mass" : 940000.0,
+      "humidity" : 78.0,
+      "temperature" : 26.0,
+      "oxygenLevel" : 73.2,
+      "airQuality" : 100.0,
+      "co2Level" : 0.04
+    }
+  },
+  "timestamp" : 24
+}, {
+  "command" : "printKnowledgeBase",
+  "output" : [ {
+    "topic" : "Rose",
+    "facts" : [ "Method to plant Rose" ]
+  } ],
+  "timestamp" : 25
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (1, 2).",
+  "timestamp" : 26
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is water.",
+  "timestamp" : 27
+}, {
+  "command" : "learnFact",
+  "message" : "The fact has been successfully saved in the database.",
+  "timestamp" : 28
+}, {
+  "command" : "improveEnvironment",
+  "message" : "The humidity was successfully increased using SmallPond",
+  "timestamp" : 29
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 32 energy points left.",
+  "timestamp" : 30
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "SwampSoil",
+      "name" : "MuddySwamp",
+      "mass" : 1020.0,
+      "nitrogen" : 1.6,
+      "waterRetention" : 1.02,
+      "soilpH" : 6.0,
+      "organicMatter" : 0.62,
+      "soilQuality" : 0.0,
+      "waterLogging" : 0.68
+    },
+    "plants" : {
+      "type" : "Mosses",
+      "name" : "SoftMoss",
+      "mass" : 0.22
+    },
+    "water" : {
+      "type" : "pond",
+      "name" : "SmallPond",
+      "mass" : 18.0
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Warm Tropical Breeze",
+      "mass" : 940000.0,
+      "humidity" : 78.4,
+      "temperature" : 26.0,
+      "oxygenLevel" : 21.0,
+      "airQuality" : 81.2,
+      "co2Level" : 0.04
+    }
+  },
+  "timestamp" : 31
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (2, 2).",
+  "timestamp" : 32
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "ForestSoil",
+      "name" : "RichForestSoil",
+      "mass" : 920.0,
+      "nitrogen" : 2.5,
+      "waterRetention" : 0.75,
+      "soilpH" : 6.4,
+      "organicMatter" : 0.38,
+      "soilQuality" : 4.95,
+      "leafLitter" : 0.22
+    },
+    "plants" : {
+      "type" : "FloweringPlants",
+      "name" : "Lily",
+      "mass" : 0.38
+    },
+    "animals" : {
+      "type" : "Herbivores",
+      "name" : "Deer",
+      "mass" : 45.0
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Warm Tropical Breeze",
+      "mass" : 940000.0,
+      "humidity" : 78.0,
+      "temperature" : 26.0,
+      "oxygenLevel" : 21.0,
+      "airQuality" : 81.0,
+      "co2Level" : 0.04
+    }
+  },
+  "timestamp" : 33
+}, {
+  "command" : "printMap",
+  "output" : [ {
+    "section" : [ 0, 0 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 0 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 0 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 1 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  } ],
+  "timestamp" : 34
+}, {
+  "command" : "endSimulation",
+  "message" : "Simulation has ended.",
+  "timestamp" : 36
+}, {
+  "command" : "startSimulation",
+  "message" : "Simulation has started.",
+  "timestamp" : 37
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 500 energy points left.",
+  "timestamp" : 38
+}, {
+  "command" : "changeWeatherConditions",
+  "message" : "The weather has changed.",
+  "timestamp" : 39
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "DesertSoil",
+      "name" : "SandyDesert",
+      "mass" : 880.0,
+      "nitrogen" : 0.5,
+      "waterRetention" : 0.2,
+      "soilpH" : 8.1,
+      "organicMatter" : 0.03,
+      "soilQuality" : 0.21,
+      "salinity" : 0.05
+    },
+    "animals" : {
+      "type" : "Carnivores",
+      "name" : "Wolf",
+      "mass" : 35.0
+    },
+    "air" : {
+      "type" : "DesertAir",
+      "name" : "Dry Desert Wind",
+      "mass" : 850000.0,
+      "humidity" : 15.0,
+      "temperature" : 38.0,
+      "oxygenLevel" : 19.0,
+      "airQuality" : 22.2,
+      "desertStorm" : true
+    }
+  },
+  "timestamp" : 40
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is an animal.",
+  "timestamp" : 41
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "DesertSoil",
+      "name" : "SandyDesert",
+      "mass" : 880.0,
+      "nitrogen" : 0.5,
+      "waterRetention" : 0.2,
+      "soilpH" : 8.1,
+      "organicMatter" : 0.03,
+      "soilQuality" : 0.21,
+      "salinity" : 0.05
+    },
+    "animals" : {
+      "type" : "Carnivores",
+      "name" : "Wolf",
+      "mass" : 35.0
+    },
+    "air" : {
+      "type" : "DesertAir",
+      "name" : "Dry Desert Wind",
+      "mass" : 850000.0,
+      "humidity" : 15.0,
+      "temperature" : 38.0,
+      "oxygenLevel" : 19.0,
+      "airQuality" : 22.2,
+      "desertStorm" : true
+    }
+  },
+  "timestamp" : 42
+}, {
+  "command" : "learnFact",
+  "message" : "The fact has been successfully saved in the database.",
+  "timestamp" : 43
+}, {
+  "command" : "improveEnvironment",
+  "message" : "The soil was successfully fertilized using Wolf",
+  "timestamp" : 44
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "DesertSoil",
+      "name" : "SandyDesert",
+      "mass" : 880.0,
+      "nitrogen" : 0.5,
+      "waterRetention" : 0.2,
+      "soilpH" : 8.1,
+      "organicMatter" : 0.33,
+      "soilQuality" : 0.21,
+      "salinity" : 0.05
+    },
+    "air" : {
+      "type" : "DesertAir",
+      "name" : "Dry Desert Wind",
+      "mass" : 850000.0,
+      "humidity" : 15.0,
+      "temperature" : 38.0,
+      "oxygenLevel" : 19.0,
+      "airQuality" : 22.2,
+      "desertStorm" : true
+    }
+  },
+  "timestamp" : 45
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 46
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 2).",
+  "timestamp" : 47
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 3).",
+  "timestamp" : 48
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "ForestSoil",
+      "name" : "RichForest",
+      "mass" : 950.0,
+      "nitrogen" : 2.8,
+      "waterRetention" : 0.72,
+      "soilpH" : 6.5,
+      "organicMatter" : 0.45,
+      "soilQuality" : 5.42,
+      "leafLitter" : 0.28
+    },
+    "water" : {
+      "type" : "river",
+      "name" : "SwiftRiver",
+      "mass" : 170.6
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Humid Tropical Air",
+      "mass" : 960000.0,
+      "humidity" : 82.0,
+      "temperature" : 28.0,
+      "oxygenLevel" : 20.0,
+      "airQuality" : 80.78,
+      "co2Level" : 22.38
+    }
+  },
+  "timestamp" : 49
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is water.",
+  "timestamp" : 50
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 331 energy points left.",
+  "timestamp" : 51
+}, {
+  "command" : "learnFact",
+  "message" : "The fact has been successfully saved in the database.",
+  "timestamp" : 52
+}, {
+  "command" : "rechargeBattery",
+  "message" : "Robot battery is charging.",
+  "timestamp" : 53
+}, {
+  "command" : "improveEnvironment",
+  "message" : "The humidity was successfully increased using SwiftRiver",
+  "timestamp" : 68
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (1, 3).",
+  "timestamp" : 69
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 3).",
+  "timestamp" : 70
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "ForestSoil",
+      "name" : "RichForest",
+      "mass" : 950.0,
+      "nitrogen" : 2.8,
+      "waterRetention" : 1.72,
+      "soilpH" : 6.5,
+      "organicMatter" : 8.45,
+      "soilQuality" : 22.92,
+      "leafLitter" : 0.28
+    },
+    "animals" : {
+      "type" : "Carnivores",
+      "name" : "Wolf",
+      "mass" : 239.82
+    },
+    "water" : {
+      "type" : "river",
+      "name" : "SwiftRiver",
+      "mass" : 0.78
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Humid Tropical Air",
+      "mass" : 960000.0,
+      "humidity" : 83.2,
+      "temperature" : 28.0,
+      "oxygenLevel" : 20.0,
+      "airQuality" : 81.38,
+      "co2Level" : 22.38
+    }
+  },
+  "timestamp" : 71
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (1, 3).",
+  "timestamp" : 72
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 3).",
+  "timestamp" : 73
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "ForestSoil",
+      "name" : "RichForest",
+      "mass" : 950.0,
+      "nitrogen" : 2.8,
+      "waterRetention" : 1.82,
+      "soilpH" : 6.5,
+      "organicMatter" : 10.05,
+      "soilQuality" : 26.27,
+      "leafLitter" : 0.28
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Humid Tropical Air",
+      "mass" : 960000.0,
+      "humidity" : 83.3,
+      "temperature" : 28.0,
+      "oxygenLevel" : 20.0,
+      "airQuality" : 81.43,
+      "co2Level" : 22.38
+    }
+  },
+  "timestamp" : 74
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "ForestSoil",
+      "name" : "RichForest",
+      "mass" : 950.0,
+      "nitrogen" : 2.8,
+      "waterRetention" : 1.82,
+      "soilpH" : 6.5,
+      "organicMatter" : 10.05,
+      "soilQuality" : 26.27,
+      "leafLitter" : 0.28
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Humid Tropical Air",
+      "mass" : 960000.0,
+      "humidity" : 83.3,
+      "temperature" : 28.0,
+      "oxygenLevel" : 20.0,
+      "airQuality" : 81.43,
+      "co2Level" : 22.38
+    }
+  },
+  "timestamp" : 75
+}, {
+  "command" : "printMap",
+  "output" : [ {
+    "section" : [ 0, 0 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 0 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 0 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 0 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 0 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 5, 0 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 1 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 1 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 1 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 1 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 1 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 5, 1 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 2 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 2 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 2 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 2 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 5, 2 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 3 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 3 ],
+    "totalNrOfObjects" : 3,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 3 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 3 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 3 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 5, 3 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 4 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 4 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 4 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 4 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 4 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 5, 4 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 5 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 5 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 5 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 5 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 5 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 5, 5 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  } ],
+  "timestamp" : 76
+}, {
+  "command" : "endSimulation",
+  "message" : "Simulation has ended.",
+  "timestamp" : 77
+} ]

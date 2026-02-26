@@ -1,0 +1,142 @@
+[ {
+  "command" : "startSimulation",
+  "message" : "Simulation has started.",
+  "timestamp" : 1
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 2
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is water.",
+  "timestamp" : 3
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "SwampSoil",
+      "name" : "WetPeat",
+      "mass" : 1100.0,
+      "nitrogen" : 2.0,
+      "waterRetention" : 0.7,
+      "soilpH" : 6.3,
+      "organicMatter" : 0.5,
+      "soilQuality" : 0.8,
+      "waterLogging" : 0.5
+    },
+    "water" : {
+      "type" : "pond",
+      "name" : "SmallPond",
+      "mass" : 30.0
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Humid Tropical Air",
+      "mass" : 950000.0,
+      "humidity" : 85.0,
+      "temperature" : 30.0,
+      "oxygenLevel" : 21.0,
+      "airQuality" : 84.5,
+      "co2Level" : 0.04
+    }
+  },
+  "timestamp" : 4
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 4990 energy points left.",
+  "timestamp" : 5
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 0).",
+  "timestamp" : 6
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 7
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "SwampSoil",
+      "name" : "WetPeat",
+      "mass" : 1100.0,
+      "nitrogen" : 2.0,
+      "waterRetention" : 0.9,
+      "soilpH" : 6.3,
+      "organicMatter" : 0.5,
+      "soilQuality" : 0.8,
+      "waterLogging" : 0.5
+    },
+    "water" : {
+      "type" : "pond",
+      "name" : "SmallPond",
+      "mass" : 30.0
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Humid Tropical Air",
+      "mass" : 950000.0,
+      "humidity" : 85.2,
+      "temperature" : 30.0,
+      "oxygenLevel" : 21.0,
+      "airQuality" : 84.6,
+      "co2Level" : 0.04
+    }
+  },
+  "timestamp" : 8
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 0).",
+  "timestamp" : 9
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 4941 energy points left.",
+  "timestamp" : 10
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 11
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 0).",
+  "timestamp" : 12
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 13
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "SwampSoil",
+      "name" : "WetPeat",
+      "mass" : 1100.0,
+      "nitrogen" : 2.0,
+      "waterRetention" : 1.2,
+      "soilpH" : 6.3,
+      "organicMatter" : 0.5,
+      "soilQuality" : 0.8,
+      "waterLogging" : 0.5
+    },
+    "water" : {
+      "type" : "pond",
+      "name" : "SmallPond",
+      "mass" : 30.0
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Humid Tropical Air",
+      "mass" : 950000.0,
+      "humidity" : 85.5,
+      "temperature" : 30.0,
+      "oxygenLevel" : 21.0,
+      "airQuality" : 84.75,
+      "co2Level" : 0.04
+    }
+  },
+  "timestamp" : 14
+}, {
+  "command" : "endSimulation",
+  "message" : "Simulation has ended.",
+  "timestamp" : 15
+} ]

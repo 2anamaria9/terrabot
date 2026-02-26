@@ -1,0 +1,53 @@
+[ {
+  "command" : "scanObject",
+  "message" : "ERROR: Simulation not started. Cannot perform action",
+  "timestamp" : 1
+}, {
+  "command" : "startSimulation",
+  "message" : "Simulation has started.",
+  "timestamp" : 2
+}, {
+  "command" : "moveRobot",
+  "message" : "ERROR: Not enough battery left. Cannot perform action",
+  "timestamp" : 3
+}, {
+  "command" : "moveRobot",
+  "message" : "ERROR: Not enough battery left. Cannot perform action",
+  "timestamp" : 4
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is a plant.",
+  "timestamp" : 5
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 6 energy points left.",
+  "timestamp" : 6
+}, {
+  "command" : "rechargeBattery",
+  "message" : "Robot battery is charging.",
+  "timestamp" : 7
+}, {
+  "command" : "scanObject",
+  "message" : "ERROR: Robot still charging. Cannot perform action",
+  "timestamp" : 8
+}, {
+  "command" : "scanObject",
+  "message" : "ERROR: Object not found. Cannot perform action",
+  "timestamp" : 27
+}, {
+  "command" : "scanObject",
+  "message" : "ERROR: Object not found. Cannot perform action",
+  "timestamp" : 28
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (1, 0).",
+  "timestamp" : 29
+}, {
+  "command" : "endSimulation",
+  "message" : "Simulation has ended.",
+  "timestamp" : 30
+}, {
+  "command" : "scanObject",
+  "message" : "ERROR: Simulation not started. Cannot perform action",
+  "timestamp" : 31
+} ]

@@ -1,0 +1,378 @@
+[ {
+  "command" : "changeWeatherConditions",
+  "message" : "ERROR: Simulation not started. Cannot perform action",
+  "timestamp" : 1
+}, {
+  "command" : "startSimulation",
+  "message" : "Simulation has started.",
+  "timestamp" : 2
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 3
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (1, 1).",
+  "timestamp" : 4
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 0 energy points left.",
+  "timestamp" : 5
+}, {
+  "command" : "learnFact",
+  "message" : "ERROR: Not enough battery left. Cannot perform action",
+  "timestamp" : 6
+}, {
+  "command" : "rechargeBattery",
+  "message" : "Robot battery is charging.",
+  "timestamp" : 7
+}, {
+  "command" : "learnFact",
+  "message" : "ERROR: Robot still charging. Cannot perform action",
+  "timestamp" : 9
+}, {
+  "command" : "improveEnvironment",
+  "message" : "ERROR: Robot still charging. Cannot perform action",
+  "timestamp" : 10
+}, {
+  "command" : "changeWeatherConditions",
+  "message" : "ERROR: The weather change does not affect the environment. Cannot perform action",
+  "timestamp" : 18
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 19
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (1, 1).",
+  "timestamp" : 20
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "ForestSoil",
+      "name" : "RichForestSoil",
+      "mass" : 950.0,
+      "nitrogen" : 2.8,
+      "waterRetention" : 0.75,
+      "soilpH" : 5.5,
+      "organicMatter" : 0.5,
+      "soilQuality" : 5.56,
+      "leafLitter" : 0.25
+    },
+    "plants" : {
+      "type" : "FloweringPlants",
+      "name" : "Sunflower",
+      "mass" : 0.5
+    },
+    "water" : {
+      "type" : "pond",
+      "name" : "CentralPond",
+      "mass" : 20.0
+    },
+    "air" : {
+      "type" : "TemperateAir",
+      "name" : "CoolBreeze",
+      "mass" : 900000.0,
+      "humidity" : 50.0,
+      "temperature" : 18.0,
+      "oxygenLevel" : 21.0,
+      "airQuality" : 76.5,
+      "pollenLevel" : 5.0
+    }
+  },
+  "timestamp" : 21
+}, {
+  "command" : "scanObject",
+  "message" : "ERROR: Not enough energy to perform action",
+  "timestamp" : 22
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 23
+}, {
+  "command" : "printMap",
+  "output" : [ {
+    "section" : [ 0, 0 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 0 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 0 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 0 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 0 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 1 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 1 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 1 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 2 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 2 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 2 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 3 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 3 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 3 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 3 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 3 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 4 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 4 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 4 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 4 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 4 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  } ],
+  "timestamp" : 24
+}, {
+  "command" : "moveRobot",
+  "message" : "ERROR: Not enough battery left. Cannot perform action",
+  "timestamp" : 25
+}, {
+  "command" : "endSimulation",
+  "message" : "Simulation has ended.",
+  "timestamp" : 26
+}, {
+  "command" : "learnFact",
+  "message" : "ERROR: Simulation not started. Cannot perform action",
+  "timestamp" : 27
+}, {
+  "command" : "startSimulation",
+  "message" : "Simulation has started.",
+  "timestamp" : 28
+}, {
+  "command" : "printMap",
+  "output" : [ {
+    "section" : [ 0, 0 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 0 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 0 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 0 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 1 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 1 ],
+    "totalNrOfObjects" : 3,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 1 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 2 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 2 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 3 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 3 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 3 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 3 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  } ],
+  "timestamp" : 29
+}, {
+  "command" : "moveRobot",
+  "message" : "ERROR: Not enough battery left. Cannot perform action",
+  "timestamp" : 30
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is a plant.",
+  "timestamp" : 31
+}, {
+  "command" : "rechargeBattery",
+  "message" : "Robot battery is charging.",
+  "timestamp" : 32
+}, {
+  "command" : "learnFact",
+  "message" : "ERROR: Subject not yet saved. Cannot perform action",
+  "timestamp" : 33
+}, {
+  "command" : "rechargeBattery",
+  "message" : "Robot battery is charging.",
+  "timestamp" : 34
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 47 energy points left.",
+  "timestamp" : 55
+}, {
+  "command" : "scanObject",
+  "message" : "ERROR: Object not found. Cannot perform action",
+  "timestamp" : 56
+}, {
+  "command" : "improveEnvironment",
+  "message" : "ERROR: Fact not yet saved. Cannot perform action",
+  "timestamp" : 57
+}, {
+  "command" : "printKnowledgeBase",
+  "output" : [ ],
+  "timestamp" : 58
+}, {
+  "command" : "rechargeBattery",
+  "message" : "Robot battery is charging.",
+  "timestamp" : 59
+}, {
+  "command" : "rechargeBattery",
+  "message" : "ERROR: Robot still charging. Cannot perform action",
+  "timestamp" : 60
+}, {
+  "command" : "endSimulation",
+  "message" : "Simulation has ended.",
+  "timestamp" : 61
+}, {
+  "command" : "endSimulation",
+  "message" : "ERROR: Simulation not started. Cannot perform action",
+  "timestamp" : 62
+}, {
+  "command" : "rechargeBattery",
+  "message" : "ERROR: Simulation not started. Cannot perform action",
+  "timestamp" : 63
+} ]

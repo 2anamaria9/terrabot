@@ -1,0 +1,53 @@
+[ {
+  "command" : "moveRobot",
+  "message" : "ERROR: Simulation not started. Cannot perform action",
+  "timestamp" : 1
+}, {
+  "command" : "startSimulation",
+  "message" : "Simulation has started.",
+  "timestamp" : 2
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 3
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 2).",
+  "timestamp" : 4
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 3).",
+  "timestamp" : 5
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 2).",
+  "timestamp" : 6
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 3).",
+  "timestamp" : 7
+}, {
+  "command" : "moveRobot",
+  "message" : "ERROR: Not enough battery left. Cannot perform action",
+  "timestamp" : 8
+}, {
+  "command" : "moveRobot",
+  "message" : "ERROR: Not enough battery left. Cannot perform action",
+  "timestamp" : 9
+}, {
+  "command" : "moveRobot",
+  "message" : "ERROR: Not enough battery left. Cannot perform action",
+  "timestamp" : 10
+}, {
+  "command" : "moveRobot",
+  "message" : "ERROR: Not enough battery left. Cannot perform action",
+  "timestamp" : 11
+}, {
+  "command" : "endSimulation",
+  "message" : "Simulation has ended.",
+  "timestamp" : 12
+}, {
+  "command" : "moveRobot",
+  "message" : "ERROR: Simulation not started. Cannot perform action",
+  "timestamp" : 13
+} ]

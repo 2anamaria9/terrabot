@@ -1,0 +1,75 @@
+[ {
+  "command" : "startSimulation",
+  "message" : "Simulation has started.",
+  "timestamp" : 1
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 2
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 0).",
+  "timestamp" : 3
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 4
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is a plant.",
+  "timestamp" : 5
+}, {
+  "command" : "learnFact",
+  "message" : "The fact has been successfully saved in the database.",
+  "timestamp" : 6
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 30 energy points left.",
+  "timestamp" : 7
+}, {
+  "command" : "learnFact",
+  "message" : "The fact has been successfully saved in the database.",
+  "timestamp" : 8
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 0).",
+  "timestamp" : 9
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is an animal.",
+  "timestamp" : 10
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is a plant.",
+  "timestamp" : 11
+}, {
+  "command" : "learnFact",
+  "message" : "The fact has been successfully saved in the database.",
+  "timestamp" : 12
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 10 energy points left.",
+  "timestamp" : 13
+}, {
+  "command" : "learnFact",
+  "message" : "The fact has been successfully saved in the database.",
+  "timestamp" : 14
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 8 energy points left.",
+  "timestamp" : 15
+}, {
+  "command" : "printKnowledgeBase",
+  "output" : [ {
+    "topic" : "Tulip",
+    "facts" : [ "Method to plant Tulip", "Characteristic of Tulip" ]
+  }, {
+    "topic" : "GreenAlgae",
+    "facts" : [ "Characteristic of GreenAlgae", "Method to plant GreenAlgae" ]
+  } ],
+  "timestamp" : 16
+}, {
+  "command" : "endSimulation",
+  "message" : "Simulation has ended.",
+  "timestamp" : 17
+} ]

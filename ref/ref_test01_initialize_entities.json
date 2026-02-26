@@ -1,0 +1,179 @@
+[ {
+  "command" : "startSimulation",
+  "message" : "Simulation has started.",
+  "timestamp" : 1
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "SwampSoil",
+      "name" : "WetPeat",
+      "mass" : 1050.0,
+      "nitrogen" : 1.6,
+      "waterRetention" : 0.8,
+      "soilpH" : 6.2,
+      "organicMatter" : 1.6,
+      "soilQuality" : 4.78,
+      "waterLogging" : 0.1
+    },
+    "plants" : {
+      "type" : "Algae",
+      "name" : "EmeraldAlgae",
+      "mass" : 0.4
+    },
+    "animals" : {
+      "type" : "Carnivores",
+      "name" : "SnowLeopard",
+      "mass" : 70.0
+    },
+    "water" : {
+      "type" : "river",
+      "name" : "FlowingRiver",
+      "mass" : 600.0
+    },
+    "air" : {
+      "type" : "MountainAir",
+      "name" : "High Altitude Breeze",
+      "mass" : 820000.0,
+      "humidity" : 40.0,
+      "temperature" : 5.0,
+      "oxygenLevel" : 17.0,
+      "airQuality" : 54.0,
+      "altitude" : 4000.0
+    }
+  },
+  "timestamp" : 2
+}, {
+  "command" : "printMap",
+  "output" : [ {
+    "section" : [ 0, 0 ],
+    "totalNrOfObjects" : 3,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 0 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "moderate"
+  }, {
+    "section" : [ 2, 0 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "moderate",
+    "soilQuality" : "moderate"
+  }, {
+    "section" : [ 3, 0 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "moderate"
+  }, {
+    "section" : [ 4, 0 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "moderate",
+    "soilQuality" : "moderate"
+  }, {
+    "section" : [ 0, 1 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "moderate"
+  }, {
+    "section" : [ 1, 1 ],
+    "totalNrOfObjects" : 3,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 1 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "moderate",
+    "soilQuality" : "good"
+  }, {
+    "section" : [ 4, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "good"
+  }, {
+    "section" : [ 2, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 2 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "moderate",
+    "soilQuality" : "moderate"
+  }, {
+    "section" : [ 4, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "moderate",
+    "soilQuality" : "moderate"
+  }, {
+    "section" : [ 0, 3 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "good"
+  }, {
+    "section" : [ 1, 3 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "good"
+  }, {
+    "section" : [ 2, 3 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "good"
+  }, {
+    "section" : [ 3, 3 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 3 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 4 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 4 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 4 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 4 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "moderate",
+    "soilQuality" : "moderate"
+  }, {
+    "section" : [ 4, 4 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "moderate",
+    "soilQuality" : "good"
+  } ],
+  "timestamp" : 3
+}, {
+  "command" : "endSimulation",
+  "message" : "Simulation has ended.",
+  "timestamp" : 4
+} ]

@@ -1,0 +1,17 @@
+[ {
+  "command" : "startSimulation",
+  "message" : "Simulation has started.",
+  "timestamp" : 1
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 2
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 2).",
+  "timestamp" : 3
+}, {
+  "command" : "endSimulation",
+  "message" : "Simulation has ended.",
+  "timestamp" : 4
+} ]

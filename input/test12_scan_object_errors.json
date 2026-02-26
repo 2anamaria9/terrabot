@@ -1,0 +1,348 @@
+{
+  "simulationParams": [
+    {
+      "territoryDim": "5x5",
+      "energyPoints": 13,
+      "territorySectionParams": {
+        "soil": [
+          {
+            "type": "ForestSoil",
+            "name": "LightForestSoil",
+            "mass": 1000,
+            "nitrogen": 2.5,
+            "waterRetention": 0.5,
+            "soilpH": 6.7,
+            "organicMatter": 0.2,
+            "leafLitter": 0.2,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 2, "y": 1 },
+              { "x": 4, "y": 2 },
+              { "x": 1, "y": 4 },
+              { "x": 3, "y": 3 }
+            ]
+          },
+          {
+            "type": "SwampSoil",
+            "name": "WetPeat",
+            "mass": 1100,
+            "nitrogen": 2,
+            "waterRetention": 0.7,
+            "soilpH": 6.3,
+            "organicMatter": 0.5,
+            "waterLogging": 0.3,
+            "sections": [
+              { "x": 0, "y": 2 },
+              { "x": 1, "y": 1 },
+              { "x": 2, "y": 4 },
+              { "x": 3, "y": 0 },
+              { "x": 4, "y": 3 }
+            ]
+          },
+          {
+            "type": "TundraSoil",
+            "name": "ArcticTundraSoil",
+            "mass": 800,
+            "nitrogen": 0.9,
+            "waterRetention": 0.3,
+            "soilpH": 5.5,
+            "organicMatter": 0.05,
+            "permafrostDepth": 5.0,
+            "sections": [
+              { "x": 0, "y": 1 },
+              { "x": 1, "y": 3 },
+              { "x": 2, "y": 0 },
+              { "x": 3, "y": 4 },
+              { "x": 4, "y": 1 }
+            ]
+          },
+          {
+            "type": "GrasslandSoil",
+            "name": "SteppeGrasslandSoil",
+            "mass": 900,
+            "nitrogen": 1.2,
+            "waterRetention": 0.4,
+            "soilpH": 6.5,
+            "organicMatter": 0.2,
+            "rootDensity": 12.0,
+            "sections": [
+              { "x": 0, "y": 4 },
+              { "x": 1, "y": 0 },
+              { "x": 2, "y": 3 },
+              { "x": 3, "y": 2 },
+              { "x": 4, "y": 0 }
+            ]
+          },
+          {
+            "type": "DesertSoil",
+            "name": "DrySandySoil",
+            "mass": 950,
+            "nitrogen": 0.8,
+            "waterRetention": 0.2,
+            "soilpH": 7.8,
+            "organicMatter": 0.05,
+            "salinity": 0.06,
+            "sections": [
+              { "x": 0, "y": 3 },
+              { "x": 1, "y": 2 },
+              { "x": 2, "y": 2 },
+              { "x": 3, "y": 1 },
+              { "x": 4, "y": 4 }
+            ]
+          }
+        ],
+        "plants": [
+          {
+            "type": "FloweringPlants",
+            "name": "Tulip",
+            "mass": 0.5,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 1, "y": 1 },
+              { "x": 2, "y": 2 }
+            ]
+          },
+          {
+            "type": "Ferns",
+            "name": "BlueFern",
+            "mass": 0.7,
+            "sections": [
+              { "x": 3, "y": 0 },
+              { "x": 4, "y": 0 },
+              { "x": 3, "y": 1 }
+            ]
+          },
+          {
+            "type": "Algae",
+            "name": "GreenAlgae",
+            "mass": 0.4,
+            "sections": [
+              { "x": 0, "y": 4 },
+              { "x": 1, "y": 3 },
+              { "x": 2, "y": 4 }
+            ]
+          }
+        ],
+        "animals": [
+          {
+            "type": "Herbivores",
+            "name": "Cow",
+            "mass": 2,
+            "sections": [
+              { "x": 1, "y": 0 }
+            ]
+          },
+          {
+            "type": "Carnivores",
+            "name": "Wolf",
+            "mass": 8,
+            "sections": [
+              { "x": 2, "y": 2 },
+              { "x": 3, "y": 2 }
+            ]
+          },
+          {
+            "type": "Omnivores",
+            "name": "Bear",
+            "mass": 300,
+            "sections": [
+              { "x": 3, "y": 3 }
+            ]
+          },
+          {
+            "type": "Detritivores",
+            "name": "Earthworm",
+            "mass": 0.01,
+            "sections": [
+              { "x": 0, "y": 1 },
+              { "x": 2, "y": 3 }
+            ]
+          }
+        ],
+        "water": [
+          {
+            "type": "pond",
+            "name": "SmallPond",
+            "mass": 30,
+            "purity": 85,
+            "salinity": 0.1,
+            "turbidity": 2,
+            "contaminantIndex": 0.5,
+            "pH": 6.6,
+            "isFrozen": false,
+            "sections": [
+              { "x": 0, "y": 4 },
+              { "x": 1, "y": 4 }
+            ]
+          },
+          {
+            "type": "river",
+            "name": "FlowingRiver",
+            "mass": 500,
+            "purity": 90,
+            "salinity": 0.3,
+            "turbidity": 3,
+            "contaminantIndex": 1,
+            "pH": 7,
+            "isFrozen": false,
+            "sections": [
+              { "x": 2, "y": 0 },
+              { "x": 2, "y": 1 },
+              { "x": 2, "y": 2 },
+              { "x": 2, "y": 3 }
+            ]
+          },
+          {
+            "type": "lake",
+            "name": "ClearLake",
+            "mass": 200,
+            "purity": 92,
+            "salinity": 0.2,
+            "turbidity": 1,
+            "contaminantIndex": 0.4,
+            "pH": 7.2,
+            "isFrozen": false,
+            "sections": [
+              { "x": 4, "y": 0 },
+              { "x": 4, "y": 1 },
+              { "x": 4, "y": 2 }
+            ]
+          }
+        ],
+        "air": [
+          {
+            "type": "MountainAir",
+            "name": "High Altitude Air",
+            "mass": 850000,
+            "humidity": 40,
+            "temperature": 5,
+            "oxygenLevel": 17,
+            "altitude": 3000.0,
+            "sections": [
+              { "x": 3, "y": 0 },
+              { "x": 3, "y": 1 },
+              { "x": 3, "y": 2 },
+              { "x": 3, "y": 3 },
+              { "x": 3, "y": 4 },
+              { "x": 4, "y": 0 },
+              { "x": 4, "y": 1 },
+              { "x": 4, "y": 2 },
+              { "x": 4, "y": 3 },
+              { "x": 4, "y": 4 }
+            ]
+          },
+          {
+            "type": "TemperateAir",
+            "name": "Calm Spring Air",
+            "mass": 900000,
+            "humidity": 55,
+            "temperature": 16,
+            "oxygenLevel": 20,
+            "pollenLevel": 7.5,
+            "sections": [
+              { "x": 1, "y": 0 },
+              { "x": 1, "y": 1 },
+              { "x": 1, "y": 2 },
+              { "x": 1, "y": 3 },
+              { "x": 1, "y": 4 },
+              { "x": 2, "y": 0 },
+              { "x": 2, "y": 1 },
+              { "x": 2, "y": 2 },
+              { "x": 2, "y": 3 },
+              { "x": 2, "y": 4 }
+            ]
+          },
+          {
+            "type": "TropicalAir",
+            "name": "Humid Summer Air",
+            "mass": 950000,
+            "humidity": 85,
+            "temperature": 30,
+            "oxygenLevel": 21,
+            "co2Level": 0.05,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 0, "y": 1 },
+              { "x": 0, "y": 2 },
+              { "x": 0, "y": 3 },
+              { "x": 0, "y": 4 }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "commands": [
+    {
+      "command": "scanObject",
+      "smell": "none",
+      "color": "none",
+      "sound": "none",
+      "timestamp": 1
+    },
+    {
+      "command": "startSimulation",
+      "timestamp": 2
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 3
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 4
+    },
+    {
+      "command": "scanObject",
+      "color": "pink",
+      "smell": "sweet",
+      "sound": "none",
+      "timestamp": 5
+    },
+    {
+      "command": "getEnergyStatus",
+      "timestamp": 6
+    },
+    {
+      "command": "rechargeBattery",
+      "timeToCharge": 20,
+      "timestamp": 7
+    },
+    {
+      "command": "scanObject",
+      "color": "none",
+      "smell": "none",
+      "sound": "none",
+      "timestamp": 8
+    },
+    {
+      "command": "scanObject",
+      "color": "none",
+      "smell": "none",
+      "sound": "none",
+      "timestamp": 27
+    },
+    {
+      "command": "scanObject",
+      "color": "brown",
+      "smell": "earthy",
+      "sound": "muu",
+      "timestamp": 28
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 29
+    },
+    {
+      "command": "endSimulation",
+      "timestamp": 30
+    },
+    {
+      "command": "scanObject",
+      "color": "brown",
+      "smell": "earthy",
+      "sound": "muu",
+      "timestamp": 31
+    }
+  ]
+}

@@ -1,0 +1,907 @@
+[ {
+  "command" : "startSimulation",
+  "message" : "Simulation has started.",
+  "timestamp" : 1
+}, {
+  "command" : "printMap",
+  "output" : [ {
+    "section" : [ 0, 0 ],
+    "totalNrOfObjects" : 3,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 0 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 0 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 0 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 0 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 1 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 1 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 2 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 2 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 2 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 2 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 3 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 3 ],
+    "totalNrOfObjects" : 3,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 3 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 3 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 3 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 4 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 4 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 4 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 4 ],
+    "totalNrOfObjects" : 3,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 4 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  } ],
+  "timestamp" : 2
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 3
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is a plant.",
+  "timestamp" : 4
+}, {
+  "command" : "learnFact",
+  "message" : "The fact has been successfully saved in the database.",
+  "timestamp" : 5
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 237 energy points left.",
+  "timestamp" : 6
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (1, 1).",
+  "timestamp" : 7
+}, {
+  "command" : "improveEnvironment",
+  "message" : "The Rose was planted successfully.",
+  "timestamp" : 8
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (2, 1).",
+  "timestamp" : 9
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "SwampSoil",
+      "name" : "CentralSwamp",
+      "mass" : 1180.0,
+      "nitrogen" : 2.3,
+      "waterRetention" : 0.88,
+      "soilpH" : 5.8,
+      "organicMatter" : 0.75,
+      "soilQuality" : 3.18,
+      "waterLogging" : 0.2
+    },
+    "plants" : {
+      "type" : "FloweringPlants",
+      "name" : "Rose",
+      "mass" : 0.7
+    },
+    "animals" : {
+      "type" : "Detritivores",
+      "name" : "Earthworm",
+      "mass" : 0.25
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "EquatorialMoistAir",
+      "mass" : 970000.0,
+      "humidity" : 84.0,
+      "temperature" : 28.0,
+      "oxygenLevel" : 21.3,
+      "airQuality" : 84.6,
+      "co2Level" : 0.05
+    }
+  },
+  "timestamp" : 10
+}, {
+  "command" : "changeWeatherConditions",
+  "message" : "The weather has changed.",
+  "timestamp" : 11
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "SwampSoil",
+      "name" : "CentralSwamp",
+      "mass" : 1180.0,
+      "nitrogen" : 2.3,
+      "waterRetention" : 0.88,
+      "soilpH" : 5.8,
+      "organicMatter" : 0.75,
+      "soilQuality" : 3.18,
+      "waterLogging" : 0.2
+    },
+    "plants" : {
+      "type" : "FloweringPlants",
+      "name" : "Rose",
+      "mass" : 0.7
+    },
+    "animals" : {
+      "type" : "Detritivores",
+      "name" : "Earthworm",
+      "mass" : 0.25
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "EquatorialMoistAir",
+      "mass" : 970000.0,
+      "humidity" : 84.0,
+      "temperature" : 28.0,
+      "oxygenLevel" : 21.3,
+      "airQuality" : 84.6,
+      "co2Level" : 0.05
+    }
+  },
+  "timestamp" : 12
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "SwampSoil",
+      "name" : "CentralSwamp",
+      "mass" : 1180.0,
+      "nitrogen" : 2.3,
+      "waterRetention" : 0.88,
+      "soilpH" : 5.8,
+      "organicMatter" : 0.75,
+      "soilQuality" : 3.18,
+      "waterLogging" : 0.2
+    },
+    "plants" : {
+      "type" : "FloweringPlants",
+      "name" : "Rose",
+      "mass" : 0.7
+    },
+    "animals" : {
+      "type" : "Detritivores",
+      "name" : "Earthworm",
+      "mass" : 0.25
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "EquatorialMoistAir",
+      "mass" : 970000.0,
+      "humidity" : 84.0,
+      "temperature" : 28.0,
+      "oxygenLevel" : 21.3,
+      "airQuality" : 84.6,
+      "co2Level" : 0.05
+    }
+  },
+  "timestamp" : 13
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is an animal.",
+  "timestamp" : 14
+}, {
+  "command" : "rechargeBattery",
+  "message" : "Robot battery is charging.",
+  "timestamp" : 15
+}, {
+  "command" : "moveRobot",
+  "message" : "ERROR: Robot still charging. Cannot perform action",
+  "timestamp" : 16
+}, {
+  "command" : "scanObject",
+  "message" : "ERROR: Robot still charging. Cannot perform action",
+  "timestamp" : 17
+}, {
+  "command" : "learnFact",
+  "message" : "The fact has been successfully saved in the database.",
+  "timestamp" : 28
+}, {
+  "command" : "learnFact",
+  "message" : "ERROR: Subject not yet saved. Cannot perform action",
+  "timestamp" : 29
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (3, 1).",
+  "timestamp" : 30
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "SwampSoil",
+      "name" : "CentralSwamp",
+      "mass" : 1180.0,
+      "nitrogen" : 2.3,
+      "waterRetention" : 0.88,
+      "soilpH" : 5.8,
+      "organicMatter" : 0.75,
+      "soilQuality" : 3.18,
+      "waterLogging" : 0.2
+    },
+    "water" : {
+      "type" : "lake",
+      "name" : "DeepLake",
+      "mass" : 320.0
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "EquatorialMoistAir",
+      "mass" : 970000.0,
+      "humidity" : 84.0,
+      "temperature" : 28.0,
+      "oxygenLevel" : 21.3,
+      "airQuality" : 84.6,
+      "co2Level" : 0.05
+    }
+  },
+  "timestamp" : 31
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is water.",
+  "timestamp" : 32
+}, {
+  "command" : "printKnowledgeBase",
+  "output" : [ {
+    "topic" : "Rose",
+    "facts" : [ "Method to plant Rose" ]
+  }, {
+    "topic" : "Earthworm",
+    "facts" : [ "Method to fertilize with Earthworm" ]
+  } ],
+  "timestamp" : 33
+}, {
+  "command" : "learnFact",
+  "message" : "The fact has been successfully saved in the database.",
+  "timestamp" : 34
+}, {
+  "command" : "printKnowledgeBase",
+  "output" : [ {
+    "topic" : "Rose",
+    "facts" : [ "Method to plant Rose" ]
+  }, {
+    "topic" : "Earthworm",
+    "facts" : [ "Method to fertilize with Earthworm" ]
+  }, {
+    "topic" : "DeepLake",
+    "facts" : [ "Method to increase humidity." ]
+  } ],
+  "timestamp" : 35
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (3, 2).",
+  "timestamp" : 36
+}, {
+  "command" : "rechargeBattery",
+  "message" : "Robot battery is charging.",
+  "timestamp" : 37
+}, {
+  "command" : "improveEnvironment",
+  "message" : "The soil was successfully fertilized using Earthworm",
+  "timestamp" : 52
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (3, 1).",
+  "timestamp" : 53
+}, {
+  "command" : "learnFact",
+  "message" : "ERROR: Subject not yet saved. Cannot perform action",
+  "timestamp" : 54
+}, {
+  "command" : "printMap",
+  "output" : [ {
+    "section" : [ 0, 0 ],
+    "totalNrOfObjects" : 3,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 0 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 0 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 0 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 0 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 1 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 1 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 1 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 1 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 2 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 2 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 2 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 2 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 3 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 3 ],
+    "totalNrOfObjects" : 3,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 3 ],
+    "totalNrOfObjects" : 3,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 3 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 3 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 4 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 4 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 4 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "moderate",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 4 ],
+    "totalNrOfObjects" : 3,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 4, 4 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "poor",
+    "soilQuality" : "poor"
+  } ],
+  "timestamp" : 55
+}, {
+  "command" : "endSimulation",
+  "message" : "Simulation has ended.",
+  "timestamp" : 56
+}, {
+  "command" : "printEnvConditions",
+  "message" : "ERROR: Simulation not started. Cannot perform action",
+  "timestamp" : 57
+}, {
+  "command" : "startSimulation",
+  "message" : "Simulation has started.",
+  "timestamp" : 58
+}, {
+  "command" : "printMap",
+  "output" : [ {
+    "section" : [ 0, 0 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 0 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 0 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 0 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 1 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 2 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 2 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 2 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 3 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 3 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 3 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 3 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  } ],
+  "timestamp" : 59
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 60
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 8 energy points left.",
+  "timestamp" : 61
+}, {
+  "command" : "scanObject",
+  "message" : "ERROR: Object not found. Cannot perform action",
+  "timestamp" : 62
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is a plant.",
+  "timestamp" : 63
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 1 energy points left.",
+  "timestamp" : 64
+}, {
+  "command" : "learnFact",
+  "message" : "ERROR: Not enough battery left. Cannot perform action",
+  "timestamp" : 65
+}, {
+  "command" : "rechargeBattery",
+  "message" : "Robot battery is charging.",
+  "timestamp" : 66
+}, {
+  "command" : "printEnvConditions",
+  "message" : "ERROR: Robot still charging. Cannot perform action",
+  "timestamp" : 70
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "ForestSoil",
+      "name" : "LightForestSoil",
+      "mass" : 1500.0,
+      "nitrogen" : 2.5,
+      "waterRetention" : 0.5,
+      "soilpH" : 7.7,
+      "organicMatter" : 0.3,
+      "soilQuality" : 4.44,
+      "leafLitter" : 0.3
+    },
+    "animals" : {
+      "type" : "Herbivores",
+      "name" : "Deer",
+      "mass" : 90.0
+    },
+    "air" : {
+      "type" : "TemperateAir",
+      "name" : "Spring Air",
+      "mass" : 900000.0,
+      "humidity" : 60.0,
+      "temperature" : 15.0,
+      "oxygenLevel" : 37.5,
+      "airQuality" : 100.0,
+      "pollenLevel" : 14.0
+    }
+  },
+  "timestamp" : 114
+}, {
+  "command" : "learnFact",
+  "message" : "The fact has been successfully saved in the database.",
+  "timestamp" : 115
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 2).",
+  "timestamp" : 116
+}, {
+  "command" : "changeWeatherConditions",
+  "message" : "The weather has changed.",
+  "timestamp" : 117
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "ForestSoil",
+      "name" : "LightForestSoil",
+      "mass" : 1500.0,
+      "nitrogen" : 2.5,
+      "waterRetention" : 0.5,
+      "soilpH" : 7.7,
+      "organicMatter" : 0.3,
+      "soilQuality" : 4.44,
+      "leafLitter" : 0.3
+    },
+    "water" : {
+      "type" : "pond",
+      "name" : "SmallPond",
+      "mass" : 30.0
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Humid Breeze",
+      "mass" : 950000.0,
+      "humidity" : 80.0,
+      "temperature" : 27.0,
+      "oxygenLevel" : 21.0,
+      "airQuality" : 82.0,
+      "co2Level" : 0.05
+    }
+  },
+  "timestamp" : 118
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "ForestSoil",
+      "name" : "LightForestSoil",
+      "mass" : 1500.0,
+      "nitrogen" : 2.5,
+      "waterRetention" : 0.5,
+      "soilpH" : 7.7,
+      "organicMatter" : 0.3,
+      "soilQuality" : 4.44,
+      "leafLitter" : 0.3
+    },
+    "water" : {
+      "type" : "pond",
+      "name" : "SmallPond",
+      "mass" : 30.0
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "Humid Breeze",
+      "mass" : 950000.0,
+      "humidity" : 80.0,
+      "temperature" : 27.0,
+      "oxygenLevel" : 21.0,
+      "airQuality" : 82.0,
+      "co2Level" : 0.05
+    }
+  },
+  "timestamp" : 119
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is water.",
+  "timestamp" : 120
+}, {
+  "command" : "improveEnvironment",
+  "message" : "The SphagnumMoss was planted successfully.",
+  "timestamp" : 121
+}, {
+  "command" : "improveEnvironment",
+  "message" : "ERROR: Fact not yet saved. Cannot perform action",
+  "timestamp" : 122
+}, {
+  "command" : "learnFact",
+  "message" : "The fact has been successfully saved in the database.",
+  "timestamp" : 123
+}, {
+  "command" : "improveEnvironment",
+  "message" : "The humidity was successfully increased using SmallPond",
+  "timestamp" : 124
+}, {
+  "command" : "printKnowledgeBase",
+  "output" : [ {
+    "topic" : "SphagnumMoss",
+    "facts" : [ "Method to plant SphagnumMoss" ]
+  }, {
+    "topic" : "SmallPond",
+    "facts" : [ "Method to increase humidity." ]
+  } ],
+  "timestamp" : 125
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 1).",
+  "timestamp" : 126
+}, {
+  "command" : "printMap",
+  "output" : [ {
+    "section" : [ 0, 0 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 0 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 0 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 0 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 1 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 1 ],
+    "totalNrOfObjects" : 0,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 1 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 2 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 2 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 2 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 2 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 0, 3 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 1, 3 ],
+    "totalNrOfObjects" : 2,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 2, 3 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  }, {
+    "section" : [ 3, 3 ],
+    "totalNrOfObjects" : 1,
+    "airQuality" : "good",
+    "soilQuality" : "poor"
+  } ],
+  "timestamp" : 127
+}, {
+  "command" : "changeWeatherConditions",
+  "message" : "The weather has changed.",
+  "timestamp" : 128
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "ForestSoil",
+      "name" : "LightForestSoil",
+      "mass" : 1500.0,
+      "nitrogen" : 2.5,
+      "waterRetention" : 0.5,
+      "soilpH" : 7.7,
+      "organicMatter" : 0.3,
+      "soilQuality" : 4.44,
+      "leafLitter" : 0.3
+    },
+    "animals" : {
+      "type" : "Herbivores",
+      "name" : "Deer",
+      "mass" : 90.0
+    },
+    "air" : {
+      "type" : "TemperateAir",
+      "name" : "Spring Air",
+      "mass" : 900000.0,
+      "humidity" : 60.0,
+      "temperature" : 15.0,
+      "oxygenLevel" : 37.5,
+      "airQuality" : 100.0,
+      "pollenLevel" : 14.0
+    }
+  },
+  "timestamp" : 129
+}, {
+  "command" : "endSimulation",
+  "message" : "Simulation has ended.",
+  "timestamp" : 130
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "ERROR: Simulation not started. Cannot perform action",
+  "timestamp" : 131
+} ]

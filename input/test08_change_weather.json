@@ -1,0 +1,317 @@
+{
+  "simulationParams": [
+    {
+      "territoryDim": "4x4",
+      "energyPoints": 200,
+      "territorySectionParams": {
+        "soil": [
+          {
+            "type": "ForestSoil",
+            "name": "LightForestSoil",
+            "mass": 1000,
+            "nitrogen": 2.5,
+            "waterRetention": 0.5,
+            "soilpH": 6.7,
+            "organicMatter": 0.3,
+            "leafLitter": 0.2,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 0, "y": 3 },
+              { "x": 2, "y": 1 },
+              { "x": 1, "y": 2 },
+              { "x": 3, "y": 3 },
+              { "x": 2, "y": 3 },
+              { "x": 2, "y": 0 }
+            ]
+          },
+          {
+            "type": "SwampSoil",
+            "name": "WetPeat",
+            "mass": 1100,
+            "nitrogen": 2,
+            "waterRetention": 0.7,
+            "soilpH": 6.3,
+            "organicMatter": 0.5,
+            "waterLogging": 0.3,
+            "sections": [
+              { "x": 0, "y": 2 },
+              { "x": 1, "y": 1 },
+              { "x": 2, "y": 2 },
+              { "x": 3, "y": 0 }
+            ]
+          },
+          {
+            "type": "TundraSoil",
+            "name": "ArcticTundraSoil",
+            "mass": 800,
+            "nitrogen": 0.9,
+            "waterRetention": 0.3,
+            "soilpH": 5.5,
+            "organicMatter": 0.05,
+            "permafrostDepth": 5.0,
+            "sections": [
+              { "x": 0, "y": 1 },
+              { "x": 1, "y": 3 },
+              { "x": 3, "y": 1 }
+            ]
+          },
+          {
+            "type": "GrasslandSoil",
+            "name": "SteppeGrasslandSoil",
+            "mass": 900,
+            "nitrogen": 1.2,
+            "waterRetention": 0.4,
+            "soilpH": 6.5,
+            "organicMatter": 0.2,
+            "rootDensity": 12.0,
+            "sections": [
+              { "x": 1, "y": 0 },
+              { "x": 3, "y": 2 }
+            ]
+          }
+        ],
+        "plants": [
+          {
+            "type": "FloweringPlants",
+            "name": "Sunflower",
+            "mass": 0.6,
+            "sections": [
+              { "x": 0, "y": 3 },
+              { "x": 1, "y": 1 },
+              { "x": 2, "y": 2 }
+            ]
+          },
+          {
+            "type": "Ferns",
+            "name": "WildFern",
+            "mass": 0.3,
+            "sections": [
+              { "x": 3, "y": 3 },
+              { "x": 1, "y": 0 },
+              { "x": 2, "y": 1 }
+            ]
+          },
+          {
+            "type": "Mosses",
+            "name": "ForestMoss",
+            "mass": 0.3,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 1, "y": 3 }
+            ]
+          }
+        ],
+        "animals": [
+          {
+            "type": "Carnivores",
+            "name": "Lion",
+            "mass": 900,
+            "sections": [
+              { "x": 2, "y": 1 },
+              { "x": 3, "y": 1 }
+            ]
+          },
+          {
+            "type": "Omnivores",
+            "name": "Raccoon",
+            "mass": 200,
+            "sections": [
+              { "x": 3, "y": 3 },
+              { "x": 1, "y": 2 }
+            ]
+          },
+          {
+            "type": "Detritivores",
+            "name": "Woodlouse",
+            "mass": 0.5,
+            "sections": [
+              { "x": 0, "y": 2 }
+            ]
+          }
+        ],
+        "water": [
+          {
+            "type": "pond",
+            "name": "TranquilPond",
+            "mass": 35,
+            "purity": 80,
+            "salinity": 0.3,
+            "turbidity": 3,
+            "contaminantIndex": 0.2,
+            "pH": 6.8,
+            "isFrozen": false,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 0, "y": 1 }
+            ]
+          },
+          {
+            "type": "river",
+            "name": "SilverStream",
+            "mass": 500,
+            "purity": 70,
+            "salinity": 0.1,
+            "turbidity": 3,
+            "contaminantIndex": 1,
+            "pH": 7,
+            "isFrozen": false,
+            "sections": [
+              { "x": 1, "y": 0 },
+              { "x": 1, "y": 1 },
+              { "x": 1, "y": 2 },
+              { "x": 1, "y": 3 }
+            ]
+          },
+          {
+            "type": "lake",
+            "name": "CrystalLake",
+            "mass": 300,
+            "purity": 80,
+            "salinity": 0.5,
+            "turbidity": 1,
+            "contaminantIndex": 0.4,
+            "pH": 7.4,
+            "isFrozen": false,
+            "sections": [
+              { "x": 2, "y": 0 },
+              { "x": 2, "y": 1 },
+              { "x": 2, "y": 2 }
+            ]
+          }
+        ],
+        "air": [
+          {
+            "type": "DesertAir",
+            "name": "Dry Desert Air",
+            "mass": 900000,
+            "humidity": 60,
+            "temperature": 15,
+            "oxygenLevel": 20,
+            "dustParticles": 12.5,
+            "sections": [
+              { "x": 0, "y": 1 },
+              { "x": 1, "y": 0 },
+              { "x": 2, "y": 0 },
+              { "x": 0, "y": 2 },
+              { "x": 3, "y": 3 },
+              { "x": 2, "y": 2 },
+              { "x": 1, "y": 1 }
+            ]
+          },
+          {
+            "type": "PolarAir",
+            "name": "Cold Polar Air",
+            "mass": 1200000,
+            "humidity": 70,
+            "temperature": -5,
+            "oxygenLevel": 19,
+            "iceCrystalConcentration": 4.0,
+            "sections": [
+              { "x": 1, "y": 3 },
+              { "x": 1, "y": 2 },
+              { "x": 3, "y": 1 }
+            ]
+          },
+          {
+            "type": "MountainAir",
+            "name": "Highland Breeze",
+            "mass": 880000,
+            "humidity": 45,
+            "temperature": 10,
+            "oxygenLevel": 22,
+            "altitude": 2600.0,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 0, "y": 3 },
+              { "x": 3, "y": 0 },
+              { "x": 2, "y": 1 },
+              { "x": 3, "y": 2 },
+              { "x": 2, "y": 3 }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "commands": [
+    {
+      "command": "startSimulation",
+      "timestamp": 1
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 2
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 3
+    },
+    {
+      "command": "changeWeatherConditions",
+      "type": "peopleHiking",
+      "numberOfHikers": 40,
+      "timestamp": 4
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 5
+    },
+    {
+      "command": "getEnergyStatus",
+      "timestamp": 6
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 7
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 8
+    },
+    {
+      "command": "getEnergyStatus",
+      "timestamp": 9
+    },
+    {
+      "command": "rechargeBattery",
+      "timeToCharge": 10,
+      "timestamp": 10
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 20
+    },
+    {
+      "command": "changeWeatherConditions",
+      "type": "desertStorm",
+      "desertStorm": true,
+      "timestamp": 21
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 22
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 23
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 24
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 25
+    },
+    {
+      "command": "changeWeatherConditions",
+      "type": "peopleHiking",
+      "numberOfHikers": 10,
+      "timestamp": 26
+    },
+    {
+      "command": "endSimulation",
+      "timestamp": 27
+    }
+  ]
+}

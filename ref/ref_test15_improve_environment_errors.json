@@ -1,0 +1,122 @@
+[ {
+  "command" : "startSimulation",
+  "message" : "Simulation has started.",
+  "timestamp" : 1
+}, {
+  "command" : "scanObject",
+  "message" : "The scanned object is a plant.",
+  "timestamp" : 2
+}, {
+  "command" : "learnFact",
+  "message" : "The fact has been successfully saved in the database.",
+  "timestamp" : 3
+}, {
+  "command" : "moveRobot",
+  "message" : "ERROR: Not enough battery left. Cannot perform action",
+  "timestamp" : 4
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "ForestSoil",
+      "name" : "MistyForestBed",
+      "mass" : 910.0,
+      "nitrogen" : 2.9,
+      "waterRetention" : 0.85,
+      "soilpH" : 5.1,
+      "organicMatter" : 0.45,
+      "soilQuality" : 5.73,
+      "leafLitter" : 0.25
+    },
+    "plants" : {
+      "type" : "FloweringPlants",
+      "name" : "CrimsonRose",
+      "mass" : 0.5
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "EquatorialWind",
+      "mass" : 82000.0,
+      "humidity" : 83.0,
+      "temperature" : 26.0,
+      "oxygenLevel" : 39.6,
+      "airQuality" : 100.0,
+      "co2Level" : 0.05
+    }
+  },
+  "timestamp" : 5
+}, {
+  "command" : "improveEnvironment",
+  "message" : "ERROR: Subject not yet saved. Cannot perform action",
+  "timestamp" : 6
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 11 energy points left.",
+  "timestamp" : 7
+}, {
+  "command" : "learnFact",
+  "message" : "The fact has been successfully saved in the database.",
+  "timestamp" : 8
+}, {
+  "command" : "improveEnvironment",
+  "message" : "ERROR: Not enough battery left. Cannot perform action",
+  "timestamp" : 9
+}, {
+  "command" : "rechargeBattery",
+  "message" : "Robot battery is charging.",
+  "timestamp" : 10
+}, {
+  "command" : "getEnergyStatus",
+  "message" : "TerraBot has 59 energy points left.",
+  "timestamp" : 61
+}, {
+  "command" : "printEnvConditions",
+  "output" : {
+    "soil" : {
+      "type" : "ForestSoil",
+      "name" : "MistyForestBed",
+      "mass" : 910.0,
+      "nitrogen" : 2.9,
+      "waterRetention" : 0.85,
+      "soilpH" : 5.1,
+      "organicMatter" : 0.45,
+      "soilQuality" : 5.73,
+      "leafLitter" : 0.25
+    },
+    "air" : {
+      "type" : "TropicalAir",
+      "name" : "EquatorialWind",
+      "mass" : 82000.0,
+      "humidity" : 83.0,
+      "temperature" : 26.0,
+      "oxygenLevel" : 111.3,
+      "airQuality" : 100.0,
+      "co2Level" : 0.05
+    }
+  },
+  "timestamp" : 62
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (1, 0).",
+  "timestamp" : 63
+}, {
+  "command" : "moveRobot",
+  "message" : "The robot has successfully moved to position (0, 0).",
+  "timestamp" : 64
+}, {
+  "command" : "moveRobot",
+  "message" : "ERROR: Not enough battery left. Cannot perform action",
+  "timestamp" : 65
+}, {
+  "command" : "moveRobot",
+  "message" : "ERROR: Not enough battery left. Cannot perform action",
+  "timestamp" : 66
+}, {
+  "command" : "endSimulation",
+  "message" : "Simulation has ended.",
+  "timestamp" : 67
+}, {
+  "command" : "improveEnvironment",
+  "message" : "ERROR: Simulation not started. Cannot perform action",
+  "timestamp" : 68
+} ]

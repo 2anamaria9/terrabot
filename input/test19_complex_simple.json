@@ -1,0 +1,793 @@
+{
+  "simulationParams": [
+    {
+      "territoryDim": "3x3",
+      "energyPoints": 120,
+      "territorySectionParams": {
+        "soil": [
+          {
+            "type": "ForestSoil",
+            "name": "RichForestSoil",
+            "mass": 920,
+            "nitrogen": 2.5,
+            "waterRetention": 0.75,
+            "soilpH": 6.4,
+            "organicMatter": 0.38,
+            "leafLitter": 0.22,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 1, "y": 1 },
+              { "x": 2, "y": 2 }
+            ]
+          },
+          {
+            "type": "GrasslandSoil",
+            "name": "FertileMeadow",
+            "mass": 850,
+            "nitrogen": 1.8,
+            "waterRetention": 0.55,
+            "soilpH": 6.9,
+            "organicMatter": 0.28,
+            "rootDensity": 9.5,
+            "sections": [
+              { "x": 0, "y": 1 },
+              { "x": 1, "y": 0 },
+              { "x": 2, "y": 1 }
+            ]
+          },
+          {
+            "type": "SwampSoil",
+            "name": "MuddySwamp",
+            "mass": 1020,
+            "nitrogen": 1.6,
+            "waterRetention": 0.82,
+            "soilpH": 6.0,
+            "organicMatter": 0.62,
+            "waterLogging": 0.68,
+            "sections": [
+              { "x": 0, "y": 2 },
+              { "x": 1, "y": 2 },
+              { "x": 2, "y": 0 }
+            ]
+          }
+        ],
+        "plants": [
+          {
+            "type": "FloweringPlants",
+            "name": "Rose",
+            "mass": 1.45,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 1, "y": 1 }
+            ]
+          },
+          {
+            "type": "Ferns",
+            "name": "GreenFern",
+            "mass": 0.55,
+            "sections": [
+              { "x": 0, "y": 1 },
+              { "x": 2, "y": 1 }
+            ]
+          },
+          {
+            "type": "Mosses",
+            "name": "SoftMoss",
+            "mass": 0.22,
+            "sections": [
+              { "x": 1, "y": 2 }
+            ]
+          },
+          {
+            "type": "FloweringPlants",
+            "name": "Lily",
+            "mass": 0.38,
+            "sections": [
+              { "x": 2, "y": 2 }
+            ]
+          },
+          {
+            "type": "GymnospermsPlants",
+            "name": "Pine",
+            "mass": 3.65,
+            "sections": [
+              { "x": 1, "y": 0 },
+              { "x": 2, "y": 0 }
+            ]
+          },
+          {
+            "type": "Algae",
+            "name": "GreenAlgae",
+            "mass": 0.15,
+            "sections": [
+              { "x": 0, "y": 2 }
+            ]
+          }
+        ],
+        "animals": [
+          {
+            "type": "Herbivores",
+            "name": "Rabbit",
+            "mass": 2.5,
+            "sections": [
+              { "x": 2, "y": 0 }
+            ]
+          },
+          {
+            "type": "Omnivores",
+            "name": "Squirrel",
+            "mass": 0.8,
+            "sections": [
+              { "x": 1, "y": 0 }
+            ]
+          },
+          {
+            "type": "Carnivores",
+            "name": "Fox",
+            "mass": 8.5,
+            "sections": [
+              { "x": 0, "y": 1 }
+            ]
+          },
+          {
+            "type": "Parasites",
+            "name": "Tick",
+            "mass": 0.202,
+            "sections": [
+              { "x": 2, "y": 0 }
+            ]
+          },
+          {
+            "type": "Detritivores",
+            "name": "Earthworm",
+            "mass": 0.25,
+            "sections": [
+              { "x": 2, "y": 1 },
+              { "x": 1, "y": 1 }
+            ]
+          },
+          {
+            "type": "Herbivores",
+            "name": "Deer",
+            "mass": 45,
+            "sections": [
+              { "x": 2, "y": 2 }
+            ]
+          }
+        ],
+        "water": [
+          {
+            "type": "pond",
+            "name": "SmallPond",
+            "mass": 18,
+            "purity": 82,
+            "salinity": 0.2,
+            "turbidity": 3,
+            "contaminantIndex": 0.4,
+            "pH": 7.2,
+            "isFrozen": false,
+            "sections": [
+              { "x": 0, "y": 2 },
+              { "x": 1, "y": 2 }
+            ]
+          }
+        ],
+        "air": [
+          {
+            "type": "TemperateAir",
+            "name": "Pleasant Morning Air",
+            "mass": 880000,
+            "humidity": 62,
+            "temperature": 19,
+            "oxygenLevel": 21,
+            "pollenLevel": 8.5,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 1, "y": 0 },
+              { "x": 2, "y": 0 }
+            ]
+          },
+          {
+            "type": "TropicalAir",
+            "name": "Warm Tropical Breeze",
+            "mass": 940000,
+            "humidity": 78,
+            "temperature": 26,
+            "oxygenLevel": 21,
+            "co2Level": 0.042,
+            "sections": [
+              { "x": 0, "y": 1 },
+              { "x": 1, "y": 1 },
+              { "x": 2, "y": 1 },
+              { "x": 0, "y": 2 },
+              { "x": 1, "y": 2 },
+              { "x": 2, "y": 2 }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "territoryDim": "6x6",
+      "energyPoints": 500,
+      "territorySectionParams": {
+        "soil": [
+          {
+            "type": "DesertSoil",
+            "name": "SandyDesert",
+            "mass": 880,
+            "nitrogen": 0.5,
+            "waterRetention": 0.2,
+            "soilpH": 8.1,
+            "organicMatter": 0.03,
+            "salinity": 0.05,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 1, "y": 0 },
+              { "x": 2, "y": 0 },
+              { "x": 0, "y": 1 },
+              { "x": 1, "y": 1 },
+              { "x": 3, "y": 0 }
+            ]
+          },
+          {
+            "type": "SwampSoil",
+            "name": "BoggySwamp",
+            "mass": 1050,
+            "nitrogen": 1.8,
+            "waterRetention": 0.85,
+            "soilpH": 5.8,
+            "organicMatter": 0.65,
+            "waterLogging": 0.75,
+            "sections": [
+              { "x": 2, "y": 1 },
+              { "x": 3, "y": 1 },
+              { "x": 2, "y": 2 },
+              { "x": 3, "y": 2 },
+              { "x": 4, "y": 2 }
+            ]
+          },
+          {
+            "type": "TundraSoil",
+            "name": "FrozenTundra",
+            "mass": 820,
+            "nitrogen": 0.7,
+            "waterRetention": 0.35,
+            "soilpH": 6.2,
+            "organicMatter": 0.08,
+            "permafrostDepth": 7.5,
+            "sections": [
+              { "x": 4, "y": 0 },
+              { "x": 5, "y": 0 },
+              { "x": 4, "y": 1 },
+              { "x": 5, "y": 1 },
+              { "x": 0, "y": 2 },
+              { "x": 1, "y": 2 }
+            ]
+          },
+          {
+            "type": "ForestSoil",
+            "name": "RichForest",
+            "mass": 950,
+            "nitrogen": 2.8,
+            "waterRetention": 0.72,
+            "soilpH": 6.5,
+            "organicMatter": 0.45,
+            "leafLitter": 0.28,
+            "sections": [
+              { "x": 5, "y": 2 },
+              { "x": 0, "y": 3 },
+              { "x": 1, "y": 3 },
+              { "x": 2, "y": 3 }
+            ]
+          },
+          {
+            "type": "GrasslandSoil",
+            "name": "FertilePlains",
+            "mass": 890,
+            "nitrogen": 1.5,
+            "waterRetention": 0.58,
+            "soilpH": 6.8,
+            "organicMatter": 0.32,
+            "rootDensity": 10.5,
+            "sections": [
+              { "x": 3, "y": 3 },
+              { "x": 4, "y": 3 },
+              { "x": 5, "y": 3 },
+              { "x": 0, "y": 4 },
+              { "x": 1, "y": 4 },
+              { "x": 2, "y": 4 },
+              { "x": 3, "y": 4 },
+              { "x": 4, "y": 4 },
+              { "x": 5, "y": 4 },
+              { "x": 0, "y": 5 },
+              { "x": 1, "y": 5 },
+              { "x": 2, "y": 5 },
+              { "x": 3, "y": 5 },
+              { "x": 4, "y": 5 },
+              { "x": 5, "y": 5 }
+            ]
+          }
+        ],
+        "plants": [
+          {
+            "type": "FloweringPlants",
+            "name": "Orchid",
+            "mass": 0.65,
+            "sections": [
+              { "x": 2, "y": 3 },
+              { "x": 3, "y": 3 },
+              { "x": 2, "y": 4 }
+            ]
+          },
+          {
+            "type": "Ferns",
+            "name": "TropicalFern",
+            "mass": 0.48,
+            "sections": [
+              { "x": 1, "y": 3 },
+              { "x": 0, "y": 4 }
+            ]
+          },
+          {
+            "type": "GymnospermsPlants",
+            "name": "Spruce",
+            "mass": 4.2,
+            "sections": [
+              { "x": 5, "y": 2 },
+              { "x": 5, "y": 3 }
+            ]
+          },
+          {
+            "type": "Algae",
+            "name": "BlueAlgae",
+            "mass": 0.48,
+            "sections": [
+              { "x": 3, "y": 2 }
+            ]
+          }
+        ],
+        "animals": [
+          {
+            "type": "Carnivores",
+            "name": "Wolf",
+            "mass": 35,
+            "sections": [
+              { "x": 1, "y": 4 },
+              { "x": 0, "y": 0 },
+              { "x": 0, "y": 4 },
+              { "x": 1, "y": 2 },
+              { "x": 1, "y": 3 }
+            ]
+          },
+          {
+            "type": "Herbivores",
+            "name": "Elk",
+            "mass": 280,
+            "sections": [
+              { "x": 4, "y": 4 }
+            ]
+          },
+          {
+            "type": "Omnivores",
+            "name": "Raccoon",
+            "mass": 6.5,
+            "sections": [
+              { "x": 2, "y": 3 }
+            ]
+          },
+          {
+            "type": "Detritivores",
+            "name": "Beetle",
+            "mass": 0.15,
+            "sections": [
+              { "x": 3, "y": 3 },
+              { "x": 5, "y": 3 }
+            ]
+          }
+        ],
+        "water": [
+          {
+            "type": "pond",
+            "name": "CrystalPond",
+            "mass": 25,
+            "purity": 88,
+            "salinity": 0.15,
+            "turbidity": 2,
+            "contaminantIndex": 0.3,
+            "pH": 7.0,
+            "isFrozen": false,
+            "sections": [
+              { "x": 2, "y": 2 },
+              { "x": 3, "y": 2 }
+            ]
+          },
+          {
+            "type": "river",
+            "name": "SwiftRiver",
+            "mass": 170.6,
+            "purity": 92,
+            "salinity": 0.25,
+            "turbidity": 1,
+            "contaminantIndex": 0.2,
+            "pH": 7.3,
+            "isFrozen": false,
+            "sections": [
+              { "x": 0, "y": 3 },
+              { "x": 1, "y": 3 }
+            ]
+          }
+        ],
+        "air": [
+          {
+            "type": "PolarAir",
+            "name": "Arctic Chill",
+            "mass": 920000,
+            "humidity": 35,
+            "temperature": -5,
+            "oxygenLevel": 22,
+            "iceCrystalConcentration": 5.0,
+            "sections": [
+              { "x": 4, "y": 0 },
+              { "x": 5, "y": 0 },
+              { "x": 4, "y": 1 },
+              { "x": 5, "y": 1 },
+              { "x": 0, "y": 2 },
+              { "x": 1, "y": 2 }
+            ]
+          },
+          {
+            "type": "DesertAir",
+            "name": "Dry Desert Wind",
+            "mass": 850000,
+            "humidity": 15,
+            "temperature": 38,
+            "oxygenLevel": 19,
+            "dustParticles": 22.0,
+            "sections": [
+              { "x": 0, "y": 0 },
+              { "x": 1, "y": 0 },
+              { "x": 2, "y": 0 },
+              { "x": 0, "y": 1 },
+              { "x": 1, "y": 1 },
+              { "x": 3, "y": 0 }
+            ]
+          },
+          {
+            "type": "MountainAir",
+            "name": "High Altitude Air",
+            "mass": 780000,
+            "humidity": 45,
+            "temperature": 12,
+            "oxygenLevel": 18,
+            "altitude": 2800.0,
+            "sections": [
+              { "x": 5, "y": 2 },
+              { "x": 5, "y": 3 }
+            ]
+          },
+          {
+            "type": "TropicalAir",
+            "name": "Humid Tropical Air",
+            "mass": 960000,
+            "humidity": 82,
+            "temperature": 28,
+            "oxygenLevel": 20,
+            "co2Level": 22.38,
+            "sections": [
+              { "x": 2, "y": 1 },
+              { "x": 3, "y": 1 },
+              { "x": 2, "y": 2 },
+              { "x": 3, "y": 2 },
+              { "x": 4, "y": 2 },
+              { "x": 0, "y": 3 },
+              { "x": 1, "y": 3 },
+              { "x": 2, "y": 3 },
+              { "x": 3, "y": 3 },
+              { "x": 4, "y": 3 },
+              { "x": 0, "y": 4 },
+              { "x": 1, "y": 4 },
+              { "x": 2, "y": 4 },
+              { "x": 3, "y": 4 },
+              { "x": 4, "y": 4 },
+              { "x": 5, "y": 4 },
+              { "x": 0, "y": 5 },
+              { "x": 1, "y": 5 },
+              { "x": 2, "y": 5 },
+              { "x": 3, "y": 5 },
+              { "x": 4, "y": 5 },
+              { "x": 5, "y": 5 }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "commands": [
+    {
+      "command": "startSimulation",
+      "timestamp": 1
+    },
+    {
+      "command": "printMap",
+      "timestamp": 2
+    },
+    {
+      "command": "scanObject",
+      "color": "red",
+      "smell": "sweet floral",
+      "sound": "none",
+      "timestamp": 3
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 4
+    },
+    {
+      "command": "changeWeatherConditions",
+      "type": "newSeason",
+      "season": "Spring",
+      "timestamp": 6
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 7
+    },
+    {
+      "command": "getEnergyStatus",
+      "timestamp": 8
+    },
+    {
+      "command": "printMap",
+      "timestamp": 10
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 11
+    },
+    {
+      "command": "scanObject",
+      "color": "brown",
+      "smell": "nutsy",
+      "sound": "chitz chitz",
+      "timestamp": 12
+    },
+    {
+      "command": "scanObject",
+      "color": "green",
+      "smell": "pine scent",
+      "sound": "none",
+      "timestamp": 13
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 14
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 15
+    },
+    {
+      "command": "scanObject",
+      "color": "red",
+      "smell": "sweet floral",
+      "sound": "none",
+      "timestamp": 16
+    },
+    {
+      "command": "learnFact",
+      "subject": "Method to plant Rose",
+      "components": "Rose",
+      "timestamp": 18
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 19
+    },
+    {
+      "command": "getEnergyStatus",
+      "timestamp": 20
+    },
+    {
+      "command": "improveEnvironment",
+      "improvementType": "plantVegetation",
+      "type": "FloweringPlants",
+      "name": "Rose",
+      "timestamp": 21
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 22
+    },
+    {
+      "command": "improveEnvironment",
+      "improvementType": "plantVegetation",
+      "type": "FloweringPlants",
+      "name": "Rose",
+      "timestamp": 23
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 24
+    },
+    {
+      "command": "printKnowledgeBase",
+      "timestamp": 25
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 26
+    },
+    {
+      "command": "scanObject",
+      "color": "none",
+      "smell": "none",
+      "sound": "none",
+      "timestamp": 27
+    },
+    {
+      "command": "learnFact",
+      "subject": "Method to increase humidity.",
+      "components": "SmallPond",
+      "timestamp": 28
+    },
+    {
+      "command": "improveEnvironment",
+      "improvementType": "increaseHumidity",
+      "type": "pond",
+      "name": "SmallPond",
+      "timestamp": 29
+    },
+    {
+      "command": "getEnergyStatus",
+      "timestamp": 30
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 31
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 32
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 33
+    },
+    {
+      "command": "printMap",
+      "timestamp": 34
+    },
+    {
+      "command": "endSimulation",
+      "timestamp": 36
+    },
+    {
+      "command": "startSimulation",
+      "timestamp": 37
+    },
+    {
+      "command": "getEnergyStatus",
+      "timestamp": 38
+    },
+    {
+      "command": "changeWeatherConditions",
+      "type": "desertStorm",
+      "desertStorm": true,
+      "timestamp": 39
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 40
+    },
+    {
+      "command": "scanObject",
+      "color": "gray",
+      "smell": "smells like a dog?",
+      "sound": "wooof",
+      "timestamp": 41
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 42
+    },
+    {
+      "command": "learnFact",
+      "subject": "Method to fertilize with Wolf",
+      "components": "Wolf",
+      "timestamp": 43
+    },
+    {
+      "command": "improveEnvironment",
+      "improvementType": "fertilizeSoil",
+      "type": "Carnivores",
+      "name": "Wolf",
+      "timestamp": 44
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 45
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 46
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 47
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 48
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 49
+    },
+    {
+      "command": "scanObject",
+      "color": "none",
+      "smell": "none",
+      "sound": "none",
+      "timestamp": 50
+    },
+    {
+      "command": "getEnergyStatus",
+      "timestamp": 51
+    },
+    {
+      "command": "learnFact",
+      "subject": "Method to increase humidity",
+      "components": "SwiftRiver",
+      "timestamp": 52
+    },
+    {
+      "command": "rechargeBattery",
+      "timeToCharge": 15,
+      "timestamp": 53
+    },
+    {
+      "command": "improveEnvironment",
+      "improvementType": "increaseHumidity",
+      "type": "river",
+      "name": "SwiftRiver",
+      "timestamp": 68
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 69
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 70
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 71
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 72
+    },
+    {
+      "command": "moveRobot",
+      "timestamp": 73
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 74
+    },
+    {
+      "command": "printEnvConditions",
+      "timestamp": 75
+    },
+    {
+      "command": "printMap",
+      "timestamp": 76
+    },
+    {
+      "command": "endSimulation",
+      "timestamp": 77
+    }
+  ]
+}
